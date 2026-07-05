@@ -1,0 +1,29 @@
+---
+layout: layouts/base.njk
+title: "Insights"
+description: "Thoughts on technology and the world we live in."
+ogSlug: insights
+---
+<section class="section wrap">
+  <div class="eyebrow">Insights</div>
+  <h1>Thoughts on technology and the world we live in.</h1>
+  <p class="lead" style="max-width: 640px;">
+    Short, direct takes, not summaries of someone else's newsletter. Cross-posted to
+    <a href="{{ site.linkedin }}" style="color: var(--rg-red);">LinkedIn</a> every week.
+  </p>
+
+  <h2 class="visually-hidden">All Posts</h2>
+  <div style="margin-top: 3rem;">
+    {% for post in collections.posts %}
+    <a href="{{ post.url }}" class="post-list__item">
+      <div>
+        <h3 class="post-list__title">{{ post.data.title }}</h3>
+        <p class="small" style="margin: 0.4rem 0 0; color: var(--rg-slate);">{{ post.data.description }}</p>
+      </div>
+      <span class="post-list__meta">{{ post.data.date | readableDate }}</span>
+    </a>
+    {% else %}
+    <p>First post is coming soon.</p>
+    {% endfor %}
+  </div>
+</section>

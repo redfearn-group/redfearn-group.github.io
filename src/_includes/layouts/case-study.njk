@@ -1,0 +1,49 @@
+---
+layout: layouts/base.njk
+bodyClass: content-layer
+---
+<article>
+  <header class="section section--tight wrap" style="padding-bottom: 0;">
+    <div class="eyebrow">Case Study</div>
+    <h1>{{ title }}</h1>
+    <p class="lead">{{ description }}</p>
+    <div class="cs-meta">
+      {% if role %}<span class="tag tag-ember">{{ role }}</span>{% endif %}
+      {% if period %}<span class="tag tag-neutral">{{ period }}</span>{% endif %}
+      {% if scale %}<span class="tag tag-neutral">{{ scale }}</span>{% endif %}
+      {% for theme in themes %}<span class="tag tag-tawny">{{ theme }}</span>{% endfor %}
+    </div>
+
+    {% if stats %}
+    <div class="cs-stat-row">
+      {% for stat in stats %}
+      <div>
+        <div class="metric__value">{{ stat.value }}</div>
+        <div class="metric__label">{{ stat.label }}</div>
+      </div>
+      {% endfor %}
+    </div>
+    {% endif %}
+  </header>
+
+  <div class="section section--tight wrap">
+    <div class="prose">
+      {{ content | safe }}
+    </div>
+
+    <div class="split-cta" style="margin-top: 4rem;">
+      <div class="split-cta__panel is-primary">
+        <div class="eyebrow" style="color: rgba(247,244,239,0.5);">Evaluating me for a role</div>
+        <h3>See the rest of the track record</h3>
+        <p>More case studies spanning 16+ years of AI and technical leadership.</p>
+        <a href="/work/" class="btn btn-ghost-dark">View full work &rarr;</a>
+      </div>
+      <div class="split-cta__panel">
+        <div class="eyebrow">Need this built or governed</div>
+        <h3>Let's talk about your problem</h3>
+        <p>AI strategy, LLM agent architecture, and governance frameworks that hold up under scrutiny.</p>
+        <a href="/contact/" class="btn btn-ghost">Get in touch &rarr;</a>
+      </div>
+    </div>
+  </div>
+</article>

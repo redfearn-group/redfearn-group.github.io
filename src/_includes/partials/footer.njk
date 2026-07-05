@@ -1,0 +1,27 @@
+<footer class="site-footer">
+  <div class="wrap">
+    <div class="site-footer__grid">
+      <div>
+        <img src="/assets/logo-lockup-dark.svg" alt="Redfearn Group" width="250" height="58" style="margin-bottom: 1.25rem;">
+        <p class="small" style="max-width: 360px;">{{ site.description }}</p>
+      </div>
+      <div>
+        <div class="eyebrow" style="color: rgba(247,244,239,0.4);">Navigate</div>
+        {% for item in site.nav %}
+        <p class="small"><a href="{{ item.url }}">{{ item.label }}</a></p>
+        {% endfor %}
+      </div>
+      <div>
+        <div class="eyebrow" style="color: rgba(247,244,239,0.4);">Connect</div>
+        <p class="small"><a href="mailto:{{ site.email }}">{{ site.email }}</a></p>
+        <p class="small"><a href="{{ site.linkedin }}" target="_blank" rel="noopener">LinkedIn</a></p>
+        <p class="small"><a href="{{ site.github }}" target="_blank" rel="noopener">GitHub</a></p>
+        <p class="small"><a href="/insights/feed.xml">RSS</a></p>
+      </div>
+    </div>
+    <div class="site-footer__bottom">
+      <span>REDFEARN GROUP &middot; EST. {{ site.founded }} &middot; {{ site.location | upper }}</span>
+      <span>&copy; {% year %} {{ site.name }}</span>
+    </div>
+  </div>
+</footer>

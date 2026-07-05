@@ -1,0 +1,216 @@
+---
+layout: layouts/base.njk
+title: null
+description: Brady Redfearn builds AI products and the governance structures that let them survive contact with legal, security, and the board. 16+ years turning ambiguity into shipped systems.
+ogSlug: home
+---
+<section class="hero">
+  {% include "partials/ambient-log.njk" %}
+  <div class="wrap" style="position: relative; z-index: 1;">
+    <div class="live-badge" style="margin-bottom: 1.5rem;">
+      <span class="live-dot"></span> Open to Senior Technical Product Manager conversations
+    </div>
+    <h1>AI Systems That Ship,<br>and Hold Up Under Scrutiny.</h1>
+    <p class="hero__lead">
+      I build AI products and the governance structures that let them survive contact with legal, security, and
+      the board. Sixteen years turning ambiguity into shipped systems, backed by a PhD in Systems Engineering
+      and a habit of taking the problem nobody else wants.
+    </p>
+    <div class="hero__ctas">
+      <a href="/work/" class="btn btn-primary">View Full Work &rarr;</a>
+      <a href="/contact/" class="btn btn-ghost-dark">Get in Touch</a>
+    </div>
+    <div class="hero__credentials">
+      <div class="hero__credential">
+        <div class="value">16+</div>
+        <div class="label">Years in AI &amp; Product Leadership</div>
+      </div>
+      <div class="hero__credential">
+        <div class="value">PhD</div>
+        <div class="label">Systems Engineering</div>
+      </div>
+      <div class="hero__credential">
+        <div class="value">$45M</div>
+        <div class="label">Portfolio Scope Led</div>
+      </div>
+      <div class="hero__credential">
+        <div class="value">$51B</div>
+        <div class="label">In Proposal Value Authored</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section wrap">
+  <div class="split-cta">
+    <div class="split-cta__panel is-primary">
+      <div class="eyebrow" style="color: rgba(247,244,239,0.5);">Evaluating me for a role</div>
+      <h2>I'm looking for a bigger platform to run AI on, not a bigger title.</h2>
+      <p>Senior technical product leadership, somewhere with the scale and resources to make AI systems that actually hold up. Full track record below.</p>
+      <a href="/work/" class="btn btn-ghost-dark">View Full Work &rarr;</a>
+    </div>
+    <div class="split-cta__panel">
+      <div class="eyebrow">Need AI built or governed</div>
+      <h2>Redfearn Group takes on the engagement your internal team is stuck on.</h2>
+      <p>AI strategy, LLM agent architecture, and governance frameworks that satisfy legal without slowing engineering down.</p>
+      <a href="mailto:{{ site.email }}" class="btn btn-ghost">Email {{ site.email }} &rarr;</a>
+    </div>
+  </div>
+</section>
+
+<section class="section section--border-top">
+  <div class="wrap">
+    <h2 class="section-label">Track Record</h2>
+    <div class="metrics">
+      <div>
+        <div class="metric__value">$45M</div>
+        <div class="metric__label">Portfolio Scope Managed</div>
+      </div>
+      <div>
+        <div class="metric__value">$51B</div>
+        <div class="metric__label">In Proposal Value Authored</div>
+      </div>
+      <div>
+        <div class="metric__value">75<span class="unit">x</span></div>
+        <div class="metric__label">SaaS Adoption Scaled</div>
+      </div>
+      <div>
+        <div class="metric__value">$750K</div>
+        <div class="metric__label">Research Funding Secured</div>
+      </div>
+      <div>
+        <div class="metric__value">200<span class="unit">+</span></div>
+        <div class="metric__label">Students Mentored</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--border-top">
+  <div class="wrap">
+    <div class="section-label">When It Gets Hard</div>
+    <h2>The work nobody else wanted to own.</h2>
+    <div class="card-grid" style="margin-top: 2.5rem;">
+      <div class="card">
+        <div class="eyebrow">Federal &amp; Defense</div>
+        <h3>Directing a $45M portfolio where compliance isn't optional</h3>
+        <p class="small">Six government contract portfolios under one product strategy, with proposals that had to survive a procurement review board that has seen every promise before.</p>
+      </div>
+      <div class="card">
+        <div class="eyebrow">Program Building</div>
+        <h3>Raising $325K for a lab that didn't exist yet</h3>
+        <p class="small">No budget, no space, no track record. The first sponsored capstone had to be won on the pitch alone, then everything after that got easier.</p>
+      </div>
+      <div class="card">
+        <div class="eyebrow">Enterprise SaaS</div>
+        <h3>Scaling adoption 75x when the instinct was to spend on marketing</h3>
+        <p class="small">The usability problem was inside the product, not the awareness campaign. The growth loop data had to make that case on its own.</p>
+      </div>
+      <div class="card">
+        <div class="eyebrow">Defense &amp; Product Strategy</div>
+        <h3>Launching two prototypes on time and under budget when the ask was to invent the business case first</h3>
+        <p class="small">Secured $750K in research funding by building the case from nothing, then shipped both prototypes under budget while meeting compliance and client standards.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section section--border-top">
+  <div class="wrap">
+    <div class="section-label">Featured Work</div>
+    <h2>Case studies, not slideware.</h2>
+    <div class="card-grid content-layer" style="margin-top: 2.5rem;">
+      {% for cs in collections.caseStudies | limit(3) %}
+      <a href="{{ cs.url }}" class="card">
+        <div class="eyebrow">{{ cs.data.themes[0] }}</div>
+        <h3>{{ cs.data.title }}</h3>
+        <p class="small">{{ cs.data.description }}</p>
+      </a>
+      {% endfor %}
+    </div>
+    <p style="margin-top: 2rem;"><a href="/work/" class="btn btn-ghost">See the full case study library &rarr;</a></p>
+  </div>
+</section>
+
+<section class="section section--border-top">
+  <div class="wrap">
+    <h2 class="section-label">Capabilities</h2>
+    <div class="card-grid">
+      <div class="card">
+        <div class="card-icon"><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 25 L12 17 L18 21 L27 8" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="5" cy="25" r="1.8" fill="currentColor"/>
+          <circle cx="12" cy="17" r="1.8" fill="currentColor"/>
+          <circle cx="18" cy="21" r="1.8" fill="currentColor"/>
+          <circle cx="27" cy="8" r="2.4" fill="currentColor"/>
+        </svg></div>
+        <h3>AI Product Strategy</h3><p class="small">Roadmaps that move adoption and revenue, not just ship features.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon"><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <line x1="16" y1="7" x2="16" y2="19" stroke="currentColor" stroke-width="1.6"/>
+          <line x1="7" y1="24" x2="16" y2="19" stroke="currentColor" stroke-width="1.6"/>
+          <line x1="25" y1="24" x2="16" y2="19" stroke="currentColor" stroke-width="1.6"/>
+          <line x1="7" y1="24" x2="25" y2="24" stroke="currentColor" stroke-width="1.6"/>
+          <circle cx="16" cy="7" r="2.6" fill="currentColor"/>
+          <circle cx="16" cy="19" r="2.2" fill="none" stroke="currentColor" stroke-width="1.6"/>
+          <circle cx="7" cy="24" r="2.6" fill="currentColor"/>
+          <circle cx="25" cy="24" r="2.6" fill="currentColor"/>
+        </svg></div>
+        <h3>LLM Agent Architecture</h3><p class="small">Multi-agent systems designed for reliability, not demos.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon"><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M16 4 L26 8 V15 C26 22 21.5 26.5 16 28.5 C10.5 26.5 6 22 6 15 V8 Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/>
+          <path d="M11 15.5 L14.5 19 L21.5 11.5" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg></div>
+        <h3>AI Governance &amp; Compliance</h3><p class="small">NIST-aligned frameworks that enable shipping instead of blocking it.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon"><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="16" cy="7" r="3" fill="currentColor"/>
+          <path d="M16 10 V15 M16 15 L8 15 L8 22 M16 15 L16 22 M16 15 L24 15 L24 22" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <circle cx="8" cy="24.5" r="2.5" fill="currentColor"/>
+          <circle cx="16" cy="24.5" r="2.5" fill="currentColor"/>
+          <circle cx="24" cy="24.5" r="2.5" fill="currentColor"/>
+        </svg></div>
+        <h3>AI-Native Team Leadership</h3><p class="small">Built 7 purpose-built AI skills that orchestrate retrospectives, documentation, and research synthesis across a team's active workstreams.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon"><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M6 16a10 10 0 0 1 17-7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M26 16a10 10 0 0 1-17 7" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+          <path d="M23 9 L24.5 5 L27.5 8.5 Z" fill="currentColor"/>
+          <path d="M9 23 L7.5 27 L4.5 23.5 Z" fill="currentColor"/>
+        </svg></div>
+        <h3>Systems Engineering</h3><p class="small">PhD-level rigor applied to AI and LLM research and architecture.</p>
+      </div>
+      <div class="card">
+        <div class="card-icon"><svg viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 12 L16 5 L27 12" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/>
+          <rect x="6" y="12" width="20" height="13" stroke="currentColor" stroke-width="1.6"/>
+          <line x1="11" y1="14.5" x2="11" y2="22.5" stroke="currentColor" stroke-width="1.6"/>
+          <line x1="16" y1="14.5" x2="16" y2="22.5" stroke="currentColor" stroke-width="1.6"/>
+          <line x1="21" y1="14.5" x2="21" y2="22.5" stroke="currentColor" stroke-width="1.6"/>
+          <line x1="4" y1="27" x2="28" y2="27" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/>
+        </svg></div>
+        <h3>Federal &amp; Enterprise Advisory</h3><p class="small">Security and compliance-heavy environments, by choice.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+{% if collections.posts.length %}
+<section class="section section--border-top">
+  <div class="wrap">
+    <h2 class="section-label">Latest Insights</h2>
+    {% for post in collections.posts | limit(3) %}
+    <a href="{{ post.url }}" class="post-list__item" style="display: flex;">
+      <h3 class="post-list__title">{{ post.data.title }}</h3>
+      <span class="post-list__meta">{{ post.data.date | readableDate }}</span>
+    </a>
+    {% endfor %}
+    <p style="margin-top: 2rem;"><a href="/insights/" class="btn btn-ghost">Read all insights &rarr;</a></p>
+  </div>
+</section>
+{% endif %}

@@ -1,0 +1,23 @@
+{
+  "name": "redfearn-group.github.io",
+  "version": "1.0.0",
+  "description": "Redfearn Group - executive AI/technical leadership site, case study library, and blog.",
+  "main": "eleventy.config.js",
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "og": "node scripts/generate-og-images.mjs",
+    "new-post": "node scripts/new-post.mjs"
+  },
+  "keywords": [],
+  "author": "Brady Redfearn",
+  "license": "ISC",
+  "devDependencies": {
+    "@11ty/eleventy": "^3.1.6",
+    "@11ty/eleventy-plugin-rss": "^3.0.0",
+    "@resvg/resvg-js": "^2.6.2",
+    "gray-matter": "^4.0.3",
+    "markdown-it": "^14.3.0"
+  }
+}

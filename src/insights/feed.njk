@@ -1,0 +1,25 @@
+---
+permalink: /insights/feed.xml
+eleventyExcludeFromCollections: true
+---<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Redfearn Group Insights</title>
+  <subtitle>Thoughts on technology and the world we live in.</subtitle>
+  <link href="{{ site.url }}/insights/feed.xml" rel="self"/>
+  <link href="{{ site.url }}/insights/"/>
+  <updated>{{ collections.posts | getNewestCollectionItemDate | dateToRfc3339 }}</updated>
+  <id>{{ site.url }}/insights/</id>
+  <author>
+    <name>{{ site.name }}</name>
+  </author>
+  {%- for post in collections.posts | reverse %}
+  <entry>
+    <title>{{ post.data.title }}</title>
+    <link href="{{ site.url }}{{ post.url }}"/>
+    <updated>{{ post.date | dateToRfc3339 }}</updated>
+    <id>{{ site.url }}{{ post.url }}</id>
+    <content type="html">{{ post.content | htmlToAbsoluteUrls(site.url) }}</content>
+    <summary>{{ post.data.description }}</summary>
+  </entry>
+  {%- endfor %}
+</feed>

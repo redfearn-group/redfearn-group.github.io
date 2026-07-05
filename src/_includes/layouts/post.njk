@@ -1,0 +1,25 @@
+---
+layout: layouts/base.njk
+---
+<article>
+  <header class="section section--tight wrap" style="padding-bottom: 0;">
+    <div class="eyebrow">Insights</div>
+    <h1>{{ title }}</h1>
+    <p class="lead">{{ description }}</p>
+    <div class="cs-meta">
+      <span class="tag tag-neutral">{{ date | readableDate }}</span>
+      {% for t in tags %}{% if t != "posts" %}<span class="tag tag-red">{{ t }}</span>{% endif %}{% endfor %}
+    </div>
+  </header>
+
+  <div class="section section--tight wrap">
+    <div class="prose">
+      {{ content | safe }}
+    </div>
+
+    <div class="callout co-note" style="max-width: 700px; margin-top: 3rem;">
+      <div class="lbl">Share</div>
+      <p>Cross-posted from <a href="{{ site.url }}{{ page.url }}">redfearn.group/insights</a>. If this was useful, I'm at <a href="{{ site.linkedin }}">LinkedIn</a>.</p>
+    </div>
+  </div>
+</article>

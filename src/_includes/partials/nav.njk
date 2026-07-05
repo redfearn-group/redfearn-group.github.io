@@ -1,0 +1,24 @@
+<nav class="site-nav">
+  <div class="site-nav__inner">
+    <a href="/" class="site-nav__brand">
+      <img src="/assets/logo-wide-light.svg" alt="Redfearn Group" width="305" height="50">
+    </a>
+    <button class="site-nav__toggle" id="navToggle" aria-expanded="false" aria-controls="navLinks">Menu</button>
+    <div class="site-nav__links" id="navLinks">
+      {% for item in site.nav %}
+      <a href="{{ item.url }}" {% if page.url == item.url %}aria-current="page"{% endif %}>{{ item.label }}</a>
+      {% endfor %}
+    </div>
+  </div>
+</nav>
+<script>
+  (function () {
+    var toggle = document.getElementById('navToggle');
+    var links = document.getElementById('navLinks');
+    if (!toggle) return;
+    toggle.addEventListener('click', function () {
+      var open = links.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', open ? 'true' : 'false');
+    });
+  })();
+</script>

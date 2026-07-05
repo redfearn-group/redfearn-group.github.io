@@ -1,0 +1,54 @@
+---
+layout: layouts/base.njk
+title: "Work"
+description: "Case studies spanning AI product strategy, LLM agent architecture, governance, and organizational transformation."
+bodyClass: content-layer
+ogSlug: work
+---
+<section class="section wrap">
+  <div class="eyebrow">Case Study Library</div>
+  <h1>16+ years of technical leadership, in evidence.</h1>
+  <p class="lead" style="max-width: 640px;">
+    Every case study here follows the same standard: what the situation actually was, what I built,
+    the hardest problem inside it, and the outcome in numbers. No slideware.
+  </p>
+
+  <h2 class="visually-hidden">Case Studies</h2>
+  <div class="filters" id="filters">
+    <button class="filter-pill is-active" data-filter="all">All</button>
+    {% for theme in collections.caseStudies | uniqueThemes %}
+    <button class="filter-pill" data-filter="{{ theme }}">{{ theme }}</button>
+    {% endfor %}
+  </div>
+
+  <div class="card-grid" id="csGrid">
+    {% for cs in collections.caseStudies %}
+    <a href="{{ cs.url }}" class="card" data-themes="{{ cs.data.themes | join(',') }}">
+      <div class="eyebrow">{{ cs.data.themes[0] }}</div>
+      <h3>{{ cs.data.title }}</h3>
+      <p class="small">{{ cs.data.description }}</p>
+      <div class="cs-meta" style="margin-bottom: 0;">
+        {% if cs.data.scale %}<span class="tag tag-neutral">{{ cs.data.scale }}</span>{% endif %}
+      </div>
+    </a>
+    {% endfor %}
+  </div>
+</section>
+
+<script>
+  (function () {
+    var pills = document.querySelectorAll('.filter-pill');
+    var cards = document.querySelectorAll('#csGrid .card');
+    pills.forEach(function (pill) {
+      pill.addEventListener('click', function () {
+        pills.forEach(function (p) { p.classList.remove('is-active'); });
+        pill.classList.add('is-active');
+        var filter = pill.getAttribute('data-filter');
+        cards.forEach(function (card) {
+          var themes = (card.getAttribute('data-themes') || '').split(',');
+          card.style.display = (filter === 'all' || themes.indexOf(filter) !== -1) ? '' : 'none';
+        });
+      });
+    });
+  })();
+</script>
