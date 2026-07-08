@@ -20,7 +20,7 @@ stats:
 
 ## Situation
 
-BluePath Labs, an 8(a) and SDVOSB defense technology contractor, needed one person to own product strategy across six separate government contract portfolios at once, mobile, SaaS, and cybersecurity solutions, all aligned to Department of Defense requirements. The portfolios didn't share a roadmap, a prioritization method, or in most cases a team.
+BluePath Labs, an 8(a) and SDVOSB defense technology contractor, needed one person to own product strategy across six separate government contract portfolios at once, mobile, SaaS, and cybersecurity solutions, all aligned to Department of Defense requirements. The portfolios didn't share a roadmap, a prioritization method, or in most cases a team. An active DoD Secret clearance meant that person could sit directly in the classified and controlled-unclassified conversations the work actually required, instead of working around them.
 
 ## What I Built
 

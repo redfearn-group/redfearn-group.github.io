@@ -348,6 +348,20 @@ p.lead { font-size: 1.15rem; font-weight: 300; color: var(--rg-slate); }
   gap: 1.5rem;
 }
 
+.testimonial-card__quote {
+  font-size: 1.02rem;
+  font-style: italic;
+  color: var(--rg-slate);
+  margin: 0 0 1.25rem;
+}
+.testimonial-card__attribution {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 0.8rem;
+  color: var(--rg-ash);
+  margin: 0;
+}
+
 /* ---------- Hero (dark) ---------- */
 .hero {
   position: relative;
