@@ -1,5 +1,5 @@
 <svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg" role="img">
-  <title>Redfearn Group: Icon Only, solid single-ink Redfearn Group red</title>
+  <title>Redfearn Group: Icon Only, solid single-ink Redfearn Group red, transparent elsewhere</title>
   <desc>Single-color Redfearn Group red knockout version. The RG mark is knocked out as transparent negative space rather than a separate fill color, so it reproduces correctly in single-ink printing, embroidery, or on colored and photo backgrounds. Real Space Grotesk Bold and JetBrains Mono Medium vector outlines, no font dependency.</desc>
   <defs>
     <mask id="rgKnockoutIcon" maskUnits="userSpaceOnUse" x="0" y="0" width="100" height="100">
