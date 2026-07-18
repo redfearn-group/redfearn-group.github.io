@@ -28,21 +28,20 @@ Two hardware platforms, Amazon's Echo and Sonos's Play:5, needed real usability 
 - **A research practice that held up under a genuinely brutal schedule**, running two concurrent industry engagements against full-time doctoral research without cutting corners on either.
 
 <figure class="diagram">
-<svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Concurrent timeline from November 2014 to December 2015 showing three overlapping tracks: PhD research at Virginia Tech running the full period, Amazon Echo UX research running the first several months, and Sonos Play:5 UX research running through the middle and end of the period.">
+<svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Concurrent timeline from November 2014 to December 2015 showing three overlapping tracks: PhD research at Virginia Tech running the full period, Amazon Echo UX research running November 2014 to November 2015, and Sonos Play:5 UX research running December 2014 to December 2015, almost entirely overlapping and offset by about one month.">
 <g font-family="IBM Plex Sans, sans-serif">
   <line x1="120" y1="220" x2="840" y2="220" stroke="#D1D5DB" stroke-width="1"/>
   <text x="120" y="240" font-family="JetBrains Mono, monospace" font-size="11" fill="#676E7C">NOV 2014</text>
   <text x="800" y="240" text-anchor="end" font-family="JetBrains Mono, monospace" font-size="11" fill="#676E7C">DEC 2015</text>
   <text x="120" y="34" font-size="13" font-weight="600" fill="#0A1128">PhD Research, Virginia Tech</text>
   <rect x="120" y="42" width="720" height="24" rx="4" fill="#0A1128"/>
-  <text x="120" y="98" font-size="13" font-weight="600" fill="#0A1128">Amazon Echo UX Research</text>
-  <rect x="120" y="106" width="360" height="24" rx="4" fill="#C2592A"/>
-  <text x="480" y="162" text-anchor="end" font-size="13" font-weight="600" fill="#0A1128">Sonos Play:5 UX Research</text>
-  <rect x="400" y="170" width="440" height="24" rx="4" fill="#D97443"/>
-  <text x="480" y="70" font-family="JetBrains Mono, monospace" font-size="10" fill="#676E7C">concurrent</text>
+  <text x="120" y="98" font-size="13" font-weight="600" fill="#0A1128">Amazon Echo UX Research, Nov 2014 to Nov 2015</text>
+  <rect x="120" y="106" width="665" height="24" rx="4" fill="#C2592A"/>
+  <text x="175" y="162" font-size="13" font-weight="600" fill="#0A1128">Sonos Play:5 UX Research, Dec 2014 to Dec 2015</text>
+  <rect x="175" y="170" width="665" height="24" rx="4" fill="#D97443"/>
 </g>
 </svg>
-<figcaption class="small" style="text-align: center; color: var(--rg-ash); margin-top: 0.75rem;">Two industry research engagements ran on top of full-time doctoral research, not before or after it.</figcaption>
+<figcaption class="small" style="text-align: center; color: var(--rg-ash); margin-top: 0.75rem;">Both industry engagements ran nearly the full year, one month apart, on top of full-time doctoral research.</figcaption>
 </figure>
 
 ## The Hardest Problem
