@@ -1,53 +1,49 @@
 ---
 layout: layouts/case-study.njk
-title: "Securing $750K in Research Funding From Scratch, Then Shipping Two Prototypes On Time"
-description: "A fourth concurrent thread during the PhD years: building the business case for defense research funding from nothing, then delivering two prototypes on time and under budget."
+title: "Securing $750K in Research Funding From Scratch, Then Saving $100K Shipping Two Prototypes"
+description: "A fourth concurrent thread during the PhD years: building the business case for defense research funding from nothing, then delivering two prototypes on time, under budget, and $100K under cost."
 order: 9
 featured: false
 themes: ["Federal & Defense", "Program Building"]
 role: "Senior Product Manager, Joint Special Operations Command"
-scale: "Defense command, UX and mobile innovation"
-period: "2014 to 2017"
+scale: "Defense command, Tampa, FL"
+period: "January 2014 to December 2017"
 ogSlug: "cs-jsoc-defense-innovation"
 stats:
   - value: "$750K"
     label: "Research funding secured from scratch"
+  - value: "$100K"
+    label: "Saved launching two prototypes under budget"
   - value: "2"
     label: "Prototypes shipped on time and under budget"
 ---
 
 <!--
-DRAFT for Brady's review before publishing. Built strictly from facts already
-published elsewhere on the site (About page timeline and the home page
-"Defense & Product Strategy" card): no new specifics invented, per the site's
-numbers-over-adjectives rule.
+DRAFT for Brady's review before publishing. Rewritten against your LinkedIn
+Positions.csv export (Joint Special Operations Command, Senior Product
+Manager, Tampa FL, Jan 2014-Dec 2017), so the numbers and bullets below are
+pulled directly from that record, not inferred.
 
-Open items for you to fill in or correct:
-  1. What were the two prototypes, by name or domain? Right now this only says
-     "UX and mobile innovation" because that's all the source text gives.
-  2. What was the actual problem the $750K funded, in a sentence someone
-     outside the command would understand?
-  3. Any other real metric worth adding (team size, deployment scale, timeline
-     detail beyond "on time and under budget")?
-  4. Period conflict to resolve at the source: the About page's timeline text
-     says "2014 to 2017" for this role, but the Gantt chart's aria-label on
-     that same page says "2014 to 2018." This draft uses 2014-2017 since the
-     timeline text is more specific. Fix whichever is wrong.
+Still open: the two prototypes aren't named or described beyond "small-scale
+marketplaces" and "UX and mobile innovation," since that's as specific as the
+LinkedIn bullet gets. Add names/domains if you want more color, otherwise this
+is ready as-is.
 -->
 
 ## Situation
 
-A defense command wanted UX and mobile innovation applied to its own operations, but there was no existing budget or mandate for it. This ran as a fourth concurrent thread during the PhD years, alongside doctoral research and industry UX work, in an environment where funding doesn't get released on the strength of an idea alone.
+A defense command wanted UX and mobile innovation applied to its own operations, but there was no existing budget or mandate for it. This ran as a fourth concurrent thread during the PhD years, alongside doctoral research and industry UX work at Amazon and Sonos, in an environment where funding doesn't get released on the strength of an idea alone.
 
 ## What I Built
 
-- **Built the business case for $750K in research funding from scratch**, with no prior program or budget line to point to as precedent.
-- **Led product strategy for UX and mobile innovation** inside a defense command, translating operational needs into a research and prototyping agenda.
-- **Shipped two prototypes on time and under budget**, while meeting the compliance and client standards a defense engagement requires.
-- **Carried this as a fourth concurrent thread** alongside full-time doctoral research and industry UX engagements, without either side of the work slipping.
+- **Secured $750K in research funding**, designing the business case and product strategy for UX and mobile innovation from scratch, with no existing program to point to as precedent.
+- **Launched two prototypes on time and under budget**, saving $100K while meeting the compliance and client standards a defense engagement requires.
+- **Optimized monetization experiments in small-scale marketplaces**, improving conversion and informing ARPU growth strategies, product-led growth thinking applied inside a defense command.
+- **Conducted market and competitive analysis** to guide roadmap prioritization and surface growth opportunities the command hadn't evaluated before.
+- **Carried this as a fourth concurrent thread** alongside full-time doctoral research and industry UX engagements at Amazon and Sonos, without any of it slipping.
 
 <figure class="diagram">
-<svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Flow diagram showing no existing budget or mandate leading to a business case built from scratch, leading to 750,000 dollars secured, branching into two prototypes, both landing on delivered on time and under budget.">
+<svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Flow diagram showing no existing budget or mandate leading to a business case built from scratch, leading to 750,000 dollars secured, branching into two prototypes, both landing on delivered on time and under budget, saving 100,000 dollars.">
 <g font-family="IBM Plex Sans, sans-serif">
   <rect x="20" y="88" width="170" height="70" rx="6" fill="#FFFFFF" stroke="#0A1128" stroke-opacity="0.15"/>
   <text x="105" y="118" text-anchor="middle" font-size="12" font-weight="600" fill="#0A1128">No existing budget</text>
@@ -77,10 +73,11 @@ A defense command wanted UX and mobile innovation applied to its own operations,
     </marker>
   </defs>
 
-  <text x="745" y="235" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="1.5" fill="#676E7C">BOTH DELIVERED ON TIME AND UNDER BUDGET</text>
+  <text x="745" y="230" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="1" fill="#676E7C">ON TIME, UNDER BUDGET,</text>
+  <text x="745" y="246" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="1" fill="#676E7C">$100K SAVED</text>
 </g>
 </svg>
-<figcaption class="small" style="text-align: center; color: var(--rg-ash); margin-top: 0.75rem;">No budget existed until the case was made. Both prototypes shipped on time and under budget once it was.</figcaption>
+<figcaption class="small" style="text-align: center; color: var(--rg-ash); margin-top: 0.75rem;">No budget existed until the case was made. Both prototypes shipped on time, under budget, and $100K under cost.</figcaption>
 </figure>
 
 ## The Hardest Problem
@@ -89,8 +86,8 @@ Getting a defense command to release real research funding against a case with n
 
 ## Outcome
 
-$750K in research funding secured from nothing. Two prototypes delivered on time and under budget, meeting the compliance and client standards a defense engagement requires, without either commitment displacing the doctoral research running in parallel.
+$750K in research funding secured from nothing. Two prototypes delivered on time, under budget, and $100K under cost, meeting the compliance and client standards a defense engagement requires, without any of it displacing the doctoral research and industry UX work running in parallel.
 
 ## Skills Demonstrated
 
-Defense product strategy, research funding and business case development from zero, UX and mobile innovation, delivery under compliance constraints, concurrent program execution.
+Defense product strategy, research funding and business case development from zero, product-led growth and monetization experimentation, market and competitive analysis, delivery under compliance constraints, concurrent program execution.
