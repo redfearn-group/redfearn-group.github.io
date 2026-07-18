@@ -29,6 +29,35 @@ Emergency services providers needed to modernize their technology stack, but the
 - **Presented findings in 30 executive briefings and stakeholder-facing sessions**, informing investment prioritization and vendor selection at the level where the budget decisions actually get made.
 - **Facilitated cross-organizational strategy and governance sessions**, producing executable roadmaps that covered pilot, scale, and steady-state operations, not just the exciting first phase.
 
+<figure class="diagram">
+<svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram showing six customer discovery engagements feeding two 50-page operational assessments, feeding 30 executive briefings, which fed a procurement-ready roadmap covering pilot, scale, and steady-state phases, grounded in operational reality rather than vendor pitch decks.">
+<g font-family="IBM Plex Sans, sans-serif">
+  <rect x="20" y="20" width="160" height="70" rx="6" fill="#FFFFFF" stroke="#0A1128" stroke-opacity="0.15"/>
+  <text x="100" y="50" text-anchor="middle" font-size="20" font-weight="700" font-family="Space Grotesk, sans-serif" fill="#C2592A">6</text>
+  <text x="100" y="70" text-anchor="middle" font-size="11" fill="#676E7C">discovery engagements</text>
+  <rect x="215" y="20" width="160" height="70" rx="6" fill="#FFFFFF" stroke="#0A1128" stroke-opacity="0.15"/>
+  <text x="295" y="50" text-anchor="middle" font-size="20" font-weight="700" font-family="Space Grotesk, sans-serif" fill="#C2592A">2</text>
+  <text x="295" y="70" text-anchor="middle" font-size="11" fill="#676E7C">50-page assessments</text>
+  <rect x="410" y="20" width="160" height="70" rx="6" fill="#FFFFFF" stroke="#0A1128" stroke-opacity="0.15"/>
+  <text x="490" y="50" text-anchor="middle" font-size="20" font-weight="700" font-family="Space Grotesk, sans-serif" fill="#C2592A">30</text>
+  <text x="490" y="70" text-anchor="middle" font-size="11" fill="#676E7C">executive briefings</text>
+  <path d="M180 55 L213 55" stroke="#C2592A" stroke-width="1.5" marker-end="url(#arrowEsm)"/>
+  <path d="M375 55 L408 55" stroke="#C2592A" stroke-width="1.5" marker-end="url(#arrowEsm)"/>
+  <path d="M490 90 L490 118" stroke="#C2592A" stroke-width="1.5" marker-end="url(#arrowEsm)"/>
+  <defs>
+    <marker id="arrowEsm" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
+      <path d="M0,0 L8,4 L0,8 Z" fill="#C2592A"/>
+    </marker>
+  </defs>
+  <rect x="20" y="128" width="860" height="60" rx="6" fill="#0A1128"/>
+  <text x="450" y="152" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" letter-spacing="2" fill="#FFCC00">PROCUREMENT-READY ROADMAP</text>
+  <text x="450" y="175" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="15" font-weight="600" fill="#F7F4EF">Pilot &rarr; Scale &rarr; Steady-State</text>
+  <text x="450" y="225" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="12" letter-spacing="1" fill="#676E7C">GROUNDED IN OPERATIONAL REALITY, NOT VENDOR PITCH DECKS</text>
+</g>
+</svg>
+<figcaption class="small" style="text-align: center; color: var(--rg-ash); margin-top: 0.75rem;">Every roadmap decision traced back to a discovery engagement, not a vendor's feature list.</figcaption>
+</figure>
+
 ## The Hardest Problem
 
 Getting operations leadership, the people who actually run emergency response, to trust that a technology assessment was grounded in their reality and not a consultant's template. That trust had to be earned in the discovery engagements themselves, by showing up with questions specific enough that it was obvious the work started from their operational pain, not from a vendor's pitch deck.
