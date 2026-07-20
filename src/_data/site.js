@@ -12,6 +12,7 @@ export default {
   founded: 2014,
   nav: [
     { label: "Work", url: "/work/" },
+    { label: "Frameworks", url: "/frameworks/" },
     { label: "Insights", url: "/insights/" },
     { label: "About", url: "/about/" },
     { label: "Contact", url: "/contact/" },
