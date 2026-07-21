@@ -1,7 +1,7 @@
 ---
 layout: layouts/case-study.njk
 title: "Scaling to 4 Concurrent AI Programs and Architecting the Platform to Unify Them"
-description: "Took an institution from one AI initiative to four running in parallel, then spec'd the platform architecture that lets them all sit on the same foundation."
+description: "Took an institution from one AI initiative to four running in parallel, then built the platform architecture that let them share one foundation."
 order: 1
 featured: true
 themes: ["AI Strategy", "Product Leadership"]
@@ -20,7 +20,7 @@ stats:
 
 ## Situation
 
-A large public institution had one AI initiative and wanted four, healthcare ePortfolio, interactive math, AI tutoring, and financial training, each with its own stakeholders, timeline, and definition of done. Running them as four unrelated projects would have meant four different architectures, four vendor relationships, and four times the long-term maintenance burden. Nobody had committed to a shared foundation yet.
+A large public institution had one AI initiative and wanted four: healthcare ePortfolio, interactive math, AI tutoring, financial training. Each had its own stakeholders, timeline, and definition of done. Run them as separate projects and you get separate architectures, separate vendor relationships, and a maintenance bill nobody signed up for. Nobody had committed to a shared foundation yet.
 
 ## What I Built
 
@@ -81,11 +81,11 @@ A large public institution had one AI initiative and wanted four, healthcare ePo
 
 ## The Hardest Problem
 
-Getting four programs with four separate stakeholder groups to agree to build on one shared architecture before any single one of them needed it badly enough to fund it alone. The case had to be made on future maintenance cost and integration risk, which is a much harder sell than "this feature ships faster." The vendor evaluation data made that case concrete instead of theoretical.
+Getting four programs, four separate stakeholder groups, to agree to build on one shared architecture before any single one of them needed it badly enough to fund it alone. The case had to run on future maintenance cost and integration risk. That's a much harder sell than "this feature ships faster." The vendor evaluation data made it concrete, not theoretical.
 
 ## Outcome
 
-The platform spec reached architecture-lock across all eight-plus domains, with a vendor selection and pedagogy roadmap that all four programs are building against instead of four separate ones. The team's own workflow automation system is running in parallel, applying the same AI-native practices internally that the platform is meant to enable institution-wide.
+The platform spec reached architecture-lock across all eight-plus domains. One vendor selection and pedagogy roadmap, and all four programs build against it. The team's own workflow automation system runs in parallel, applying the same AI-native practices internally that the platform is meant to enable institution-wide.
 
 ## Skills Demonstrated
 

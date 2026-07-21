@@ -32,7 +32,7 @@ is ready as-is.
 
 ## Situation
 
-A defense command wanted UX and mobile innovation applied to its own operations, but there was no existing budget or mandate for it. This ran as a fourth concurrent thread during the PhD years, alongside doctoral research and industry UX work at Amazon and Sonos, in an environment where funding doesn't get released on the strength of an idea alone.
+A defense command wanted UX and mobile innovation applied to its own operations. No existing budget, no mandate. This ran as a fourth concurrent thread during the PhD years, alongside doctoral research and industry UX work at Amazon and Sonos. Nobody releases funding on the strength of an idea alone.
 
 ## What I Built
 
@@ -82,7 +82,7 @@ A defense command wanted UX and mobile innovation applied to its own operations,
 
 ## The Hardest Problem
 
-Getting a defense command to release real research funding against a case with no existing program to point to, while running this as one of four concurrent commitments during the PhD years. The pitch had to stand entirely on its own logic, since there was no prior track record inside this specific command to lean on.
+Getting a defense command to release real research funding against a case with no existing program to point to, while running this as one of four concurrent commitments during the PhD years. The pitch had to stand on its own logic. There was no prior track record inside this specific command to lean on.
 
 ## Outcome
 

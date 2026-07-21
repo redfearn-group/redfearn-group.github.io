@@ -20,7 +20,7 @@ stats:
 
 ## Situation
 
-This was early in my career, 2009, at an EdTech company where design was treated as a finishing touch, not a growth lever. Proving otherwise meant showing up with numbers, not opinions about what looked better.
+2009. Early in my career, at an EdTech company that treated design as decoration. I had to prove it drove revenue, and the only way to do that was numbers.
 
 ## What I Built
 
@@ -64,7 +64,7 @@ This was early in my career, 2009, at an EdTech company where design was treated
 
 ## The Hardest Problem
 
-Getting a sales-driven organization to fund design work before there was any proof it would pay off. The only way through was to ship something small, measure it honestly, and let the repeat customer and satisfaction numbers make the argument that a slide deck never could have.
+Getting a sales-driven organization to fund design work before there was any proof it would pay off. The only way through was shipping something small, measuring it honestly, and letting the repeat customer and satisfaction numbers argue the case. A slide deck never could have.
 
 ## Outcome
 

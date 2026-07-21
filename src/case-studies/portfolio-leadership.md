@@ -20,7 +20,7 @@ stats:
 
 ## Situation
 
-BluePath Labs, an 8(a) and SDVOSB defense technology contractor, needed one person to own product strategy across six separate government contract portfolios at once, mobile, SaaS, and cybersecurity solutions, all aligned to Department of Defense requirements. The portfolios didn't share a roadmap, a prioritization method, or in most cases a team. An active DoD Secret clearance meant that person could sit directly in the classified and controlled-unclassified conversations the work actually required, instead of working around them.
+BluePath Labs, an 8(a) and SDVOSB defense technology contractor, needed one person to own product strategy across six government contract portfolios at once: mobile, SaaS, and cybersecurity solutions, all aligned to Department of Defense requirements. The portfolios didn't share a roadmap, a prioritization method, or in most cases a team. An active DoD Secret clearance let that person sit directly in the classified and controlled-unclassified conversations the work required.
 
 ## What I Built
 
@@ -66,11 +66,11 @@ BluePath Labs, an 8(a) and SDVOSB defense technology contractor, needed one pers
 
 ## The Hardest Problem
 
-Proposal work in the federal space lives or dies on whether the business case survives contact with a procurement review board that has seen a thousand proposals promising the same things. Getting to $51B in potential value across two proposals meant building KPI frameworks and stakeholder alignment specific enough to survive that scrutiny, not generic value statements that read like every competitor's submission.
+Proposal work in the federal space lives or dies on whether the business case survives a procurement review board that's seen a thousand proposals promising the same things. Getting to $51B in potential value across two proposals meant KPI frameworks and stakeholder alignment specific enough to survive that scrutiny. Generic value statements don't survive it; every competitor submits those.
 
 ## Outcome
 
-Six contract portfolios ran under a single coherent product strategy instead of six disconnected ones. The team grew from 4 to 12 while contract value doubled, proof that the scaling was funded by real delivery, not headcount for its own sake. The Army Cybersecurity Institute research program applied frontier LLM techniques to defense-relevant problems well ahead of when that became standard practice industry-wide.
+Six contract portfolios ran under one coherent product strategy, not six disconnected ones. The team grew from 4 to 12 while contract value doubled. Proof the scaling was funded by delivery, not headcount padding. The Army Cybersecurity Institute research program applied frontier LLM techniques to defense-relevant problems years before that became standard industry practice.
 
 ## Skills Demonstrated
 

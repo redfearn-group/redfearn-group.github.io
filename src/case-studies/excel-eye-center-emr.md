@@ -18,14 +18,14 @@ stats:
 
 ## Situation
 
-A pediatric ophthalmology practice was still running patient records the old way, paper charts and disconnected notes that made it hard for physicians to move fast during appointments packed with kids who don't sit still. They needed a real Electronic Medical Record system, but one built around how a pediatric ophthalmologist actually works an exam room, not a generic EMR template retrofitted onto their specialty.
+A pediatric ophthalmology practice was still running patient records the old way: paper charts, disconnected notes, appointments packed with kids who don't sit still. They needed a real Electronic Medical Record system built around how a pediatric ophthalmologist actually works an exam room. A generic EMR template retrofitted onto their specialty wasn't going to cut it.
 
 ## What I Built
 
 - **Led user research directly with physicians and clinical staff**, translating exam-room workflows and documentation habits into requirements an off-the-shelf EMR vendor would never have captured.
 - **Designed and prototyped a doctor-friendly Electronic Medical Record system**, built around the specific pace and structure of a pediatric ophthalmology exam rather than a general practice.
 - **Collaborated with medical staff and IT teams on compliance and usability together**, so the system met recordkeeping requirements without slowing physicians down during patient visits.
-- **Deployed the system into full clinical use**, taking it from initial research through a rollout the practice actually adopted, not a prototype that stalled after the pitch.
+- **Deployed the system into full clinical use**, research to a rollout the practice actually adopted. No prototype stalling after the pitch.
 
 <figure class="diagram">
 <svg viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Process flow diagram showing four stages over nine months: exam-room observation, physician requirements, EMR prototype and compliance review, and full clinical rollout.">
@@ -58,11 +58,11 @@ A pediatric ophthalmology practice was still running patient records the old way
 
 ## The Hardest Problem
 
-Physicians don't tolerate friction during patient visits, especially in pediatrics, where the appointment window is short and the patient is rarely cooperative. The interface had to disappear into the physician's existing workflow instead of asking them to adapt to the software's model of a medical record. Getting that right meant designing from direct observation of exam-room behavior, not from a requirements document written by someone who'd never sat in the room.
+Physicians don't tolerate friction during patient visits, especially in pediatrics, where the appointment window is short and the patient is rarely cooperative. The interface had to disappear into the physician's existing workflow. Asking them to adapt to the software's model of a medical record was never going to work. Getting that right meant designing from direct observation of exam-room behavior. A requirements document written by someone who'd never sat in the room wouldn't have gotten it right.
 
 ## Outcome
 
-The practice moved off paper and fragmented notes onto a system physicians actually used, built around their real workflow instead of a generic template. It was an early, small-scale proof of an approach that shows up again and again later in the work: go watch how the work actually happens before designing the system meant to support it.
+The practice moved off paper and fragmented notes onto a system physicians actually used, built around their real workflow, not a generic template. It was an early, small-scale proof of an approach I kept using later: watch how the work actually happens before designing the system meant to support it.
 
 ## Skills Demonstrated
 
