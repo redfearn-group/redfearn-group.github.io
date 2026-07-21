@@ -4,7 +4,7 @@ export default {
   tagline: "AI Systems That Ship, and Hold Up Under Scrutiny",
   url: "https://redfearn.group",
   description:
-    "Brady Redfearn builds AI products and the governance structures that let them survive contact with legal, security, and the board. 16+ years turning ambiguity into shipped systems.",
+    "Brady Redfearn builds AI products and the governance to back them up. 16+ years shipping systems in the rooms where legal, security, and the board all get a vote.",
   email: "brady@redfearn.group",
   linkedin: "https://linkedin.com/in/redfearnb/",
   github: "https://github.com/redfearn-group",

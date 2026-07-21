@@ -20,14 +20,14 @@ stats:
 
 ## Situation
 
-There was no lab. There was an idea that students would build better AR/VR and mobile products if they worked on real problems with real constraints instead of purely academic exercises, and there was no budget, no space, and no industry relationships to make that happen yet.
+There was no lab. Just an idea: students build better AR/VR and mobile products working on real problems with real constraints, not academic exercises. No budget, no space, no industry relationships to make it happen yet.
 
 ## What I Built
 
 - **Founded and scaled an innovation lab from zero**, raising $325K and mentoring 200+ students through AR/VR and mobile prototypes that shipped, not just demoed.
 - **Applied product-led growth experimentation to student-facing platforms**, treating the lab's own tools as products worth measuring and iterating on.
 - **Bridged academic research with commercial productization**, securing $22K for the program's first industry-sponsored capstone project, the deal that proved outside companies would trust student teams with real problems.
-- **Championed composable service design**, building reusable components that got leveraged across multiple student projects instead of each team starting from zero.
+- **Championed composable service design**, building reusable components multiple student projects could leverage. No team had to start from zero.
 - **Taught across the full stack of the discipline**, Mixed Reality, Advanced HCI, Senior Capstone, Intro to UX, UX Studio, Intro to Networking, and Applied UX, mentoring students who went on to careers in SaaS, EdTech, and cybersecurity.
 
 <figure class="diagram">
@@ -54,11 +54,11 @@ There was no lab. There was an idea that students would build better AR/VR and m
 
 ## The Hardest Problem
 
-Getting the first outside company to trust a brand-new academic lab with a real problem and real money before the lab had any track record to point to. That first $22K sponsored capstone only happened because the pitch was built around what the company would get, not what the students would learn. Everything after that first deal got easier because there was finally proof it worked.
+Getting the first outside company to trust a brand-new academic lab with a real problem and real money, with no track record to point to. That first $22K sponsored capstone happened because the pitch was built around what the company would get, not what the students would learn. Everything after that got easier. There was finally proof it worked.
 
 ## Outcome
 
-$325K raised to build a program that didn't exist before. Over 200 students mentored through applied research and real product delivery, many of whom moved directly into SaaS, EdTech, and cybersecurity careers. The composable service design approach outlived any single cohort, becoming infrastructure the next group of students built on instead of reinventing.
+$325K raised to build a program that didn't exist before. Over 200 students mentored through applied research and real product delivery, many moving directly into SaaS, EdTech, and cybersecurity careers. The composable service design approach outlived any single cohort. It became infrastructure the next group of students built on, not something they had to reinvent.
 
 ## Skills Demonstrated
 

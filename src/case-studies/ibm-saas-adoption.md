@@ -20,12 +20,12 @@ stats:
 
 ## Situation
 
-An enterprise SaaS platform at IBM had a usability problem masquerading as a marketing problem. Adoption was flat, and the instinct in the room was to spend more on awareness. The actual blocker was inside the product.
+An enterprise SaaS platform at IBM had a usability problem dressed up as a marketing problem. Adoption was flat, and the instinct in the room was to spend more on awareness. The actual blocker was inside the product.
 
 ## What I Built
 
 - **Usability improvements and growth experiments** that increased SaaS adoption by 35,000 downloads, the equivalent of saving 13,125 days of manual work across the customer base.
-- **Data-driven growth loops**, built jointly with engineering and analytics, that scaled adoption 75x by compounding small conversion improvements instead of chasing one big redesign.
+- **Data-driven growth loops**, built jointly with engineering and analytics, that scaled adoption 75x by compounding small conversion improvements. No big redesign required.
 - **VM initiatives for enterprise platforms** that secured 24 new contracts by removing deployment friction that had been quietly costing sales cycles.
 - **Workflow automation and modular services** that improved enterprise efficiency beyond the immediate adoption metrics.
 
@@ -68,7 +68,7 @@ An enterprise SaaS platform at IBM had a usability problem masquerading as a mar
 
 ## The Hardest Problem
 
-Convincing a large, established enterprise org that the fix was inside the product, not in the marketing budget, when marketing spend is the easier line item to approve. The growth loop data had to make the case on its own: showing exactly where in the product experience users were dropping off, and what closing that gap was worth.
+Convincing a large, established enterprise org the fix was inside the product. Marketing spend is the easier line item to approve, and that's exactly why nobody wanted to hear it wasn't the answer. The growth loop data made the case on its own: exactly where in the product experience users were dropping off, and what closing that gap was worth.
 
 ## Outcome
 
