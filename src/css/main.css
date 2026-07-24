@@ -1,58 +1,14 @@
 /* ============================================================
-   Redfearn Group Design System
+   Redfearn Group: site-specific styles
+
+   Design tokens, layer scopes, and shared primitives come from
+   brand.css, which is vendored from redfearn-group/redfearn-brand
+   and checked for drift in CI. Do not redefine --rg-* here.
    ============================================================ */
 
 :root {
-  /* Brand + barn swallow palette */
-  --rg-red:      #BF1E2E;
-  --rg-blue:      #0A1128;
-  --rg-cream:    #F7F4EF;
-  --rg-green:    #1A6635;
-  --rg-gape:     #FFCC00;
-  --rg-tawny:    #D97443;
-  --rg-ember:    #C2592A;
-
-  /* Editorial neutrals */
-  --rg-graphite: #2B2F36;
-  --rg-slate:    #4B5563;
-  --rg-ash:      #676E7C;
-  --rg-mist:     #D1D5DB;
-  --rg-paper:    #F8F9FA;
-  --rg-bone:     #F7F5EF;
-
-  /* Callout tints */
-  --tint-blue:    #E9E9EE;
-  --tint-slate:  #EEF0F2;
-  --tint-paper:  #F8F9FA;
-  --tint-mist:   #EFEFF1;
-  --tint-tawny:  #FCF4F0;
-  --tint-yellow: #FFFBEB;
-  --tint-ember:  #FAF2EE;
-  --tint-red:    #FAEDEE;
-  --tint-green:  #EDF3EF;
-
-  /* Type */
-  --font-display: 'Space Grotesk', sans-serif;
-  --font-body: 'IBM Plex Sans', sans-serif;
-  --font-mono: 'JetBrains Mono', monospace;
-
-  /* Identity layer default accent (main site chrome + marketing pages) */
-  --accent: var(--rg-red);
-  --accent-tint: rgba(191,30,46,0.08);
-  --accent-border: rgba(191,30,46,0.22);
-  --gradient-a: #BF1E2E;
-  --gradient-b: #D97443;
-
+  /* Site layout only, not a brand token */
   --max-width: 1180px;
-}
-
-/* Content-layer scope: case studies switch primary accent to ember */
-.content-layer {
-  --accent: var(--rg-ember);
-  --accent-tint: rgba(194,89,42,0.08);
-  --accent-border: rgba(194,89,42,0.24);
-  --gradient-a: #C2592A;
-  --gradient-b: #FFCC00;
 }
 
 * { box-sizing: border-box; }
