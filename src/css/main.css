@@ -265,14 +265,14 @@ p.lead { font-size: 1.15rem; font-weight: 300; color: var(--rg-slate); }
 }
 .tag-red     { color: var(--rg-red);    background: rgba(191,30,46,0.08); }
 .tag-green   { color: var(--rg-green);  background: rgba(26,102,53,0.08); }
-.tag-tawny   { color: var(--rg-tawny);  background: rgba(217,116,67,0.08); }
 .tag-neutral { color: var(--rg-ash);    background: rgba(107,114,128,0.08); }
-/* .tag-ember is NOT redefined here. main.css loads after brand.css, so a
-   same-specificity duplicate here would silently win and mask any future
-   change to brand.css's version, exactly what happened 2026-07-26: this
-   line used to redeclare plain ember text, which reintroduced the ~3.8:1
-   contrast failure brand.css's accent-edge redesign was meant to fix.
-   brand.css's .tag-ember applies on its own; leave it there. */
+/* .tag-ember and .tag-tawny are NOT redefined here. main.css loads after
+   brand.css, so a same-specificity duplicate here would silently win and
+   mask any future change to brand.css's version, exactly what happened
+   2026-07-26 and again 2026-07-27: these lines used to redeclare plain
+   ember/tawny text, reintroducing the contrast failures brand.css's
+   accent-edge redesigns were meant to fix. Both apply on their own from
+   brand.css; leave them there. */
 
 /* ---------- Card icons ---------- */
 .card-icon {
