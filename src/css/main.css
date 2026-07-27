@@ -151,25 +151,15 @@ p.lead { font-size: 1.15rem; font-weight: 300; color: var(--rg-slate); }
    since a duplicate here can always drift again; brand.css's copy is the
    only one that needs to stay correct. */
 
-/* ---------- Tags ---------- */
-.tag {
-  display: inline-block;
-  padding: 0.22rem 0.55rem;
-  border-radius: 2px;
-  font-family: var(--font-mono);
-  font-weight: 500;
-  font-size: 0.75rem;
-  letter-spacing: 0.06em;
-  text-transform: uppercase;
-}
-/* None of the tag-* color variants are redefined here. main.css loads
-   after brand.css, so a same-specificity duplicate here would silently win
-   and mask any future change to brand.css's version, exactly what happened
-   2026-07-26 and again 2026-07-27: the tag-ember and tag-tawny lines that
-   used to live here redeclared plain ember/tawny text, reintroducing the
-   contrast failures brand.css's accent-edge redesigns were meant to fix.
-   All five (tag-red/green/neutral/ember/tawny) apply on their own from
-   brand.css; leave them there. */
+/* .tag and every tag-* color variant are NOT redefined here; brand.css owns
+   the whole component, including the uppercase treatment, which used to
+   live only here as its own separate discrepancy from the apps until
+   2026-07-27. main.css loads after brand.css, so a same-specificity
+   duplicate here would silently win and mask any future change to
+   brand.css's version, exactly what happened 2026-07-26 and again
+   2026-07-27: the tag-ember and tag-tawny lines that used to live here
+   redeclared plain ember/tawny text, reintroducing the contrast failures
+   brand.css's accent-edge redesigns were meant to fix. */
 
 /* ---------- Card icons ---------- */
 .card-icon {
