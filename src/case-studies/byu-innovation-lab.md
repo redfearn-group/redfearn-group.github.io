@@ -27,7 +27,7 @@ There was no lab. Just an idea: students build better AR/VR and mobile products 
 - **Founded and scaled an innovation lab from zero**, raising $325K and mentoring 200+ students through AR/VR and mobile prototypes that shipped, not just demoed.
 - **Applied product-led growth experimentation to student-facing platforms**, treating the lab's own tools as products worth measuring and iterating on.
 - **Bridged academic research with commercial productization**, securing $22K for the program's first industry-sponsored capstone project, the deal that proved outside companies would trust student teams with real problems.
-- **Championed composable service design**, building reusable components multiple student projects could leverage. No team had to start from zero.
+- **Championed composable service design**, building reusable components multiple student projects could reuse directly. No team had to start from zero.
 - **Taught across the full stack of the discipline**, Mixed Reality, Advanced HCI, Senior Capstone, Intro to UX, UX Studio, Intro to Networking, and Applied UX, mentoring students who went on to careers in SaaS, EdTech, and cybersecurity.
 
 <figure class="diagram">
