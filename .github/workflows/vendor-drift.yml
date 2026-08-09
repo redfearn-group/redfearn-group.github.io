@@ -1,0 +1,38 @@
+name: Vendored file drift check
+
+# brand.css is authored in redfearn-group/redfearn-brand and vendored here
+# so builds stay hermetic. This job is what stops the vendored copy from
+# silently drifting away from canonical. If it fails, run `node sync.mjs` in
+# the brand repo and commit the result, rather than editing the copy here.
+#
+# This site vendors brand.css and nothing else. The shared kit in
+# redfearn-brand is TypeScript for the Astro apps and has no meaning in an
+# Eleventy build, which is why there is no kit check below.
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    env:
+      CANONICAL: https://raw.githubusercontent.com/redfearn-group/redfearn-brand/main
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch canonical brand.css
+        run: curl -sfL "$CANONICAL/brand.css" -o /tmp/canonical.css
+
+      - name: Compare against vendored copy
+        run: |
+          # --strip-trailing-cr so a CRLF checkout does not report every line
+          # as drift when nothing actually changed.
+          if ! diff -u --strip-trailing-cr /tmp/canonical.css src/css/brand.css; then
+            echo "::error file=src/css/brand.css::src/css/brand.css has drifted from redfearn-group/redfearn-brand."
+            echo "Run 'node sync.mjs' in the redfearn-brand repo and commit the result."
+            exit 1
+          fi
+          echo "brand.css matches canonical."
