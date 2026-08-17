@@ -14,16 +14,6 @@
    on cream and fails as a text colour.
    ============================================================ */
 
-/* main.css sets `html, body { overflow-x: hidden }`, which makes the body a
-   scroll container and silently kills `position: sticky` for everything inside
-   it, including the site nav. `clip` blocks sideways scrolling the same way
-   without creating that container, so the sticky bars work. Scoped to this
-   page because report.css only loads where front matter asks for it. */
-html,
-body {
-  overflow-x: clip;
-}
-
 .report {
   /* Prose runs the full container width so text blocks, headings, callouts and
      tables all share one left and right edge. A reading measure would set the

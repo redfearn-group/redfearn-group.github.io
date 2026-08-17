@@ -13,7 +13,11 @@
 
 * { box-sizing: border-box; }
 html { scroll-behavior: smooth; }
-html, body { overflow-x: hidden; }
+/* `clip`, not `hidden`. Both block sideways scrolling and both park the closed
+   mobile drawer off-canvas, but `hidden` makes the body a scroll container,
+   which silently disables `position: sticky` for every descendant, the site nav
+   included. `clip` blocks the scrolling without creating that container. */
+html, body { overflow-x: clip; }
 
 body {
   margin: 0;
