@@ -152,6 +152,21 @@ renderCard("contact", {
   title: "Two ways in. Pick the one that's yours.",
   description: "",
 });
+renderCard("frameworks", {
+  eyebrow: "Frameworks",
+  title: "Three methodologies behind every case study here.",
+  description: "Governance as infrastructure, weighted evidence, teams that need no translator.",
+});
+renderCard("reports", {
+  eyebrow: "Reports",
+  title: "Analysis that shows its work.",
+  description: "Primary sources, stated methods, every number traced to the record.",
+});
+renderCard("title-15-amendment-analysis", {
+  eyebrow: "Report",
+  title: "Title 15 Amendment Analysis for Spanish Fork",
+  description: "An independent review of a proposed data center ordinance. 75 primary sources.",
+});
 
 // Case studies
 const csDir = join(ROOT, "src", "case-studies");

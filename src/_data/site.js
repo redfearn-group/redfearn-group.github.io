@@ -14,6 +14,7 @@ export default {
     { label: "Work", url: "/work/" },
     { label: "Frameworks", url: "/frameworks/" },
     { label: "Insights", url: "/insights/" },
+    { label: "Reports", url: "/reports/" },
     { label: "About", url: "/about/" },
     { label: "Contact", url: "/contact/" },
   ],
