@@ -25,7 +25,11 @@ body {
 }
 
 .report {
-  --report-measure: 72ch;
+  /* Prose runs the full container width so text blocks, headings, callouts and
+     tables all share one left and right edge. A reading measure would set the
+     text in a narrower column than the tables beside it, which reads as a
+     layout accident in a document that is mostly tables and figures. */
+  --report-measure: none;
   --report-rule: rgba(10, 17, 40, 0.08);
   --report-rule-soft: rgba(10, 17, 40, 0.05);
   /* height of the site nav, which this bar sits beneath */
@@ -33,8 +37,11 @@ body {
 }
 
 /* ---------- masthead ---------- */
+/* set vertical padding only: the shorthand would zero out the horizontal
+   padding .wrap supplies, and content would sit flush to the viewport edge */
 .report-mast {
-  padding: 3rem 0 2.5rem;
+  padding-top: 3rem;
+  padding-bottom: 2.5rem;
   border-bottom: 1px solid var(--report-rule);
 }
 .report-mast .gradient-bar {
@@ -48,7 +55,7 @@ body {
   text-wrap: balance;
 }
 .report-mast .lead {
-  max-width: 62ch;
+  max-width: none;
   margin-bottom: 2rem;
 }
 .mast-meta {
@@ -68,7 +75,8 @@ body {
 
 /* ---------- section rhythm ---------- */
 .report-section {
-  padding: 3.25rem 0;
+  padding-top: 3.25rem;
+  padding-bottom: 3.25rem;
   border-top: 1px solid var(--report-rule);
 }
 .report-section:first-of-type {
@@ -77,15 +85,15 @@ body {
 .report-section > h2 {
   font-size: clamp(1.45rem, 2.8vw, 1.9rem);
   margin: 0 0 1.5rem;
-  max-width: 34ch;
+  max-width: none;
   text-wrap: balance;
 }
 .report-section h3 {
   margin: 2.5rem 0 0.85rem;
-  max-width: 52ch;
+  max-width: none;
   text-wrap: balance;
 }
-/* running prose gets a comfortable measure; tables and figures do not */
+/* prose spans the container, matching the tables and headings beside it */
 .report-section > p,
 .report-section > ul,
 .report-section > ol:not(.srcs) {
