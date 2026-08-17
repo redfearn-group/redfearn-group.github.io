@@ -129,6 +129,38 @@ body {
 .report del {
   opacity: 0.6;
 }
+/* worked arithmetic: alignment carries meaning, so it scrolls rather than wraps */
+.report pre {
+  background: var(--rg-blue);
+  color: var(--rg-cream);
+  padding: 1.1rem 1.25rem;
+  border-radius: 4px;
+  overflow-x: auto;
+  margin: 1.25rem 0 1.5rem;
+  font-size: 0.85rem;
+  line-height: 1.6;
+}
+.report pre code {
+  background: none;
+  padding: 0;
+  color: inherit;
+  font-size: inherit;
+  white-space: pre;
+}
+.report blockquote {
+  margin: 1.5rem 0;
+  padding: 0.1rem 0 0.1rem 1.25rem;
+  border-left: 3px solid var(--accent);
+  color: var(--rg-slate);
+}
+.report blockquote p:last-child {
+  margin-bottom: 0;
+}
+.report hr {
+  border: 0;
+  border-top: 1px solid var(--report-rule);
+  margin: 2.5rem 0;
+}
 .report a {
   color: var(--rg-red);
   text-underline-offset: 2px;

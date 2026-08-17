@@ -1,0 +1,21 @@
+---
+layout: layouts/base.njk
+bodyClass: content-layer
+extraCss: report
+---
+<div class="report report-doc">
+  <header class="report-mast wrap" id="top">
+    <div class="gradient-bar"></div>
+    <div class="eyebrow">Appendix</div>
+    <h1>{{ title }}</h1>
+    {% if description %}<p class="lead">{{ description }}</p>{% endif %}
+    <div class="mast-meta">
+      {% if built %}<span>Built <b>{{ built }}</b></span>{% endif %}
+      {% if revised %}<span>Revised <b>{{ revised }}</b></span>{% endif %}
+      {% if parent %}<span>Companion to <b><a href="{{ parent }}">the report</a></b></span>{% endif %}
+    </div>
+  </header>
+  <section class="report-section wrap">
+    {{ content | safe }}
+  </section>
+</div>

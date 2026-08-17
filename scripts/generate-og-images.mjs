@@ -162,6 +162,11 @@ renderCard("reports", {
   title: "Analysis that shows its work.",
   description: "Primary sources, stated methods, every number traced to the record.",
 });
+renderCard("title-15-calculations", {
+  eyebrow: "Appendix",
+  title: "Independent Calculations",
+  description: "The arithmetic behind the Title 15 Amendment Analysis, inputs cited and method shown.",
+});
 renderCard("title-15-amendment-analysis", {
   eyebrow: "Report",
   title: "Title 15 Amendment Analysis for Spanish Fork",

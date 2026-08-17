@@ -13,10 +13,19 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/site.webmanifest");
   eleventyConfig.addPassthroughCopy({ "src/og-cards": "og-cards" });
 
-  eleventyConfig.setLibrary(
-    "md",
-    markdownIt({ html: true, breaks: false, linkify: true, typographer: false })
-  );
+  const md = markdownIt({
+    html: true,
+    breaks: false,
+    linkify: true,
+    typographer: false,
+  });
+
+  // Wrap every markdown table in a scroll container. A wide table must scroll
+  // inside its own box; without this the page body scrolls sideways on mobile.
+  md.renderer.rules.table_open = () => '<div class="tw"><table>\n';
+  md.renderer.rules.table_close = () => "</table></div>\n";
+
+  eleventyConfig.setLibrary("md", md);
 
   // Collections
   eleventyConfig.addCollection("caseStudies", (collectionApi) => {
