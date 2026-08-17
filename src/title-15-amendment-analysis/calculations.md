@@ -251,12 +251,12 @@ Tests `C-31` ("Equal to 4–5 Semi Trucks per year", `P-07`).
 ```text
 Facility (P-08):     5.17 short tons NOx/yr  = 4,690 kg
                      0.12 short tons PM2.5/yr =   109 kg
-Existing fleet (CC-11): 420,000 truck-mi/yr, 65,000 gal diesel
+Deck fleet figure (CC-11): 420,000 truck-mi/yr, 65,000 gal diesel  [basis unstated]
                      2,000 kg NOx/yr  ·  50 kg PM2.5/yr
 Implied fleet rates:  4.76 g NOx/mi  ·  0.119 g PM2.5/mi   [both plausible for Class 8]
 ```
 
-**Test A, facility against the entire existing fleet**
+**Test A, facility against the fleet figure the deck itself states**
 
 ```text
 NOx:    4,690 ÷ 2,000 =  2.3×
@@ -283,20 +283,25 @@ PM2.5 per truck-year: 0.119 g/mi × 100,000 mi = 11.9 kg
 >
 > The two readings differ by ~40× and **the slide states no basis**, so neither can be called the
 > intended one. **The defensible finding is the original one: the claim is unfalsifiable as
-> written.** Test A, facility vs. the entire existing fleet, at **2.2–2.3×**, uses only the
-> deck's own numbers and is the figure to rely on. **Do not quote "off by about 2×" as if it were
-> settled**; quote Test A instead.
+> written.** Test A, at **2.2–2.3×**, uses only the deck's own numbers. **Do not quote "off by
+> about 2×" as if it were settled**, and do not read Test A as a site comparison; see the basis
+> warning below.
 
 **Verdict on `C-31`: UNFALSIFIABLE AS WRITTEN.** The slide states no basis, and the two available
-readings differ by roughly 40×. Report the fleet-level figure, **2.2–2.3×**, which uses only the
-deck's own numbers and requires no added assumption.
+readings differ by roughly 40×.
 
-**And it answers the framing question directly.** The question was whether, if the truck claim held,
-the facility would be *"orders of magnitude cleaner than current traffic."* It would not, either
-way. On criteria pollutants the facility is **~2.2–2.3× the entire existing 3,500-truck-per-month
-operation**, so replacing the trucks with the data center is **a net increase in local NOx and
-PM2.5, not a reduction**, even though the per-unit-of-output cleanliness claim is sound. The
-"we remove the trucks" framing and the emissions arithmetic point in opposite directions.
+> **⚠ What Test A is not.** Test A measures the slide against the deck's own stated fleet figure.
+> It is an internal-consistency test of the presentation, **not a comparison between the data center
+> and this site.** The deck never says what its 420,000 truck-mile figure represents, and it cannot
+> be assumed to describe the fully tenanted warehouse. **The building is mostly vacant today and its
+> present truck traffic is very low**, so no baseline drawn from current operations is relevant to
+> the decision in front of the Council.
+>
+> **The comparison that matters is the proposed data center against the fully tenanted distribution
+> warehouse the building was built for**, and that one is computed from ITE rates against the
+> verified 1,054,000 sq ft rather than taken from the applicant: **6,396 to 12,849 diesel trip ends
+> a month for the warehouse, none for the data center.** That calculation, not this one, is the
+> truck finding the report relies on.
 
 **What survives as a finding:** the PC deck remains **internally** inconsistent, its own 101 kg
 fleet figure cannot be reconciled with its own "4–5 semi trucks" claim two slides later. But that
@@ -882,7 +887,7 @@ cited sources are real. The gap is scope, not honesty.
 | Claim | Verdict from arithmetic |
 |---|---|
 | `C-34` CO2 = 3–4 diesel trucks | **SPLIT**, off by 1,292×–2,528× on total CO2; defensible on the criteria-pollutant basis, see CALC-2 |
-| `C-31` emissions = 4–5 semi trucks | **UNFALSIFIABLE AS WRITTEN**, no basis stated; the two available readings differ by ~40×. Report the fleet-level figure, 2.2–2.3×, see CALC-5 |
+| `C-31` emissions = 4–5 semi trucks | **UNFALSIFIABLE AS WRITTEN**, no basis stated; the two available readings differ by ~40×. The 2.2–2.3× figure tests the slide against the deck's own numbers and is not a site comparison, see CALC-5 |
 | `C-32` comparison table | **MISLEADING**, recip engine row ~1,100× high vs. Utah's own permit; grid row has no stated basis |
 | `C-63` ~13 W/m² | **MISLEADING BY JUXTAPOSITION**, city-area denominator printed beside an on-site figure. On-site flux is **114×** the stated value |
 | `C-66` heat never meets atmosphere | **FALSE as stated**, efficiency benefit real, energy balance unchanged |
