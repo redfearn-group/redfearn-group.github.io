@@ -1,14 +1,14 @@
 ---
 layout: layouts/case-study.njk
-title: "Directing a $45M Defense Technology Portfolio at BluePath Labs"
+title: "Directing a $45M Defense Technology Portfolio"
 description: "Six government contract portfolios, one AI research program at the Army Cybersecurity Institute, and two proposals that put $51B in potential contract value on the table."
 order: 2
 featured: true
 themes: ["Product Leadership", "Federal & Defense"]
-role: "Senior Technical Product Manager, BluePath Labs"
+role: "Senior Technical Product Manager, Defense Technology Contractor"
 scale: "8(a) & SDVOSB defense technology contractor"
 period: "January 2018 to October 2024"
-ogSlug: "cs-bluepath-portfolio"
+ogSlug: "cs-defense-portfolio"
 stats:
   - value: "$45M"
     label: "Contract portfolio directed"
@@ -20,7 +20,7 @@ stats:
 
 ## Situation
 
-BluePath Labs, an 8(a) and SDVOSB defense technology contractor, needed one person to own product strategy across six government contract portfolios at once: mobile, SaaS, and cybersecurity solutions, all aligned to Department of Defense requirements. The portfolios didn't share a roadmap, a prioritization method, or in most cases a team. An active DoD Secret clearance let that person sit directly in the classified and controlled-unclassified conversations the work required.
+An 8(a) and SDVOSB defense technology contractor needed one person to own product strategy across six government contract portfolios at once: mobile, SaaS, and cybersecurity solutions, all aligned to Department of Defense requirements. The portfolios didn't share a roadmap, a prioritization method, or in most cases a team. An active DoD Secret clearance let that person sit directly in the classified and controlled-unclassified conversations the work required.
 
 ## What I Built
 

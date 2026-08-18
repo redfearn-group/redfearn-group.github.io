@@ -5,7 +5,7 @@ description: "Two 50-page operational assessments and six customer discovery eng
 order: 3
 featured: true
 themes: ["Federal & Defense", "AI Strategy"]
-role: "Principal AI Product Strategist, BluePath Labs"
+role: "Principal AI Product Strategist, Defense Technology Contractor"
 scale: "Emergency services providers, federal contracting"
 period: "October 2024 to February 2026"
 ogSlug: "cs-emergency-services-modernization"
