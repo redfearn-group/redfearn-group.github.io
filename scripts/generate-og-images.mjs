@@ -162,6 +162,11 @@ renderCard("reports", {
   title: "Analysis that shows its work.",
   description: "Primary sources, stated methods, every number traced to the record.",
 });
+renderCard("publications", {
+  eyebrow: "Publications",
+  title: "Peer-reviewed work, with the receipts.",
+  description: "A dissertation, an MS thesis, and five conference papers on mixed reality and IT education.",
+});
 renderCard("title-15-calculations", {
   eyebrow: "Appendix",
   title: "Independent Calculations",
@@ -193,6 +198,26 @@ for (const file of readdirSync(postsDir)) {
   renderCard(data.ogSlug || file.replace(".md", ""), {
     eyebrow: "Insights",
     title: data.title,
+    description: data.description,
+  });
+}
+
+// Publications
+const pubTypeEyebrow = {
+  dissertation: "PhD Dissertation",
+  thesis: "Master's Thesis",
+  "conference-paper": "Conference Paper",
+  "extended-abstract": "Extended Abstract",
+  talk: "Conference Talk",
+};
+const papersDir = join(ROOT, "src", "papers");
+for (const file of readdirSync(papersDir)) {
+  if (!file.endsWith(".md")) continue;
+  const { data } = matter(readFileSync(join(papersDir, file), "utf8"));
+  renderCard(data.ogSlug || file.replace(".md", ""), {
+    eyebrow: pubTypeEyebrow[data.type] || "Publication",
+    // wrapText caps the title at 3 lines; the dissertation title overruns it.
+    title: data.ogTitle || data.title,
     description: data.description,
   });
 }
