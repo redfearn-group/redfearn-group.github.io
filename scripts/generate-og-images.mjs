@@ -130,11 +130,11 @@ console.log("Generating OG cards...");
 renderCard("home", {
   eyebrow: "",
   title: "AI Systems That Ship, and Hold Up Under Scrutiny",
-  description: "Brady Redfearn: AI Product and Technical Leadership, 16+ years.",
+  description: "Brady Redfearn: AI Product and Technical Leadership, 20+ years.",
 });
 renderCard("work", {
   eyebrow: "Case Study Library",
-  title: "16+ years of technical leadership, in evidence.",
+  title: "20+ years of technical leadership, in evidence.",
   description: "Case studies in AI strategy, LLM agents, governance, and org transformation.",
 });
 renderCard("insights", {
@@ -145,7 +145,7 @@ renderCard("insights", {
 renderCard("about", {
   eyebrow: "About",
   title: "Chaos is my fuel. Ambiguity is my playground.",
-  description: "16+ years turning ambiguity into shipped systems.",
+  description: "20+ years turning ambiguity into shipped systems.",
 });
 renderCard("contact", {
   eyebrow: "Contact",
