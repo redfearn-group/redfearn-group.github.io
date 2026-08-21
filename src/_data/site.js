@@ -8,7 +8,11 @@ export default {
   email: "brady@redfearn.group",
   linkedin: "https://linkedin.com/in/redfearnb/",
   github: "https://github.com/redfearn-group",
+  scholar: "https://scholar.google.com/citations?user=SQKgljkAAAAJ",
+  researchgate: "https://www.researchgate.net/profile/Brady-Redfearn",
+  x: "https://x.com/redfearnb",
   location: "Spanish Fork, UT",
+  region: "Utah County, Utah",
   founded: 2014,
   nav: [
     { label: "Work", url: "/work/" },

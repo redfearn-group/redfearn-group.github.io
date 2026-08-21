@@ -42,17 +42,58 @@
     "@type": "Person",
     "name": "{{ site.name }}",
     "url": "{{ site.url }}",
-    "jobTitle": "AI Product & Technical Leader",
+    "jobTitle": "AI Product Leader",
+    "description": "{{ site.description }}",
     "affiliation": {
       "@type": "Organization",
       "name": "Redfearn Group",
       "url": "{{ site.url }}"
     },
+    "homeLocation": {
+      "@type": "Place",
+      "address": {
+        "@type": "PostalAddress",
+        "addressLocality": "Spanish Fork",
+        "addressRegion": "UT",
+        "addressCountry": "US"
+      }
+    },
+    "alumniOf": [
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Virginia Tech",
+        "url": "https://www.vt.edu/"
+      },
+      {
+        "@type": "CollegeOrUniversity",
+        "name": "Brigham Young University",
+        "url": "https://www.byu.edu/"
+      }
+    ],
+    "hasCredential": [
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "degree",
+        "educationalLevel": "Doctorate",
+        "name": "PhD, Industrial and Systems Engineering",
+        "recognizedBy": { "@type": "CollegeOrUniversity", "name": "Virginia Tech" }
+      },
+      {
+        "@type": "EducationalOccupationalCredential",
+        "credentialCategory": "degree",
+        "educationalLevel": "Master's Degree",
+        "name": "MS, User Experience Research",
+        "recognizedBy": { "@type": "CollegeOrUniversity", "name": "Brigham Young University" }
+      }
+    ],
     "sameAs": [
       "{{ site.linkedin }}",
-      "{{ site.github }}"
+      "{{ site.github }}",
+      "{{ site.scholar }}",
+      "{{ site.researchgate }}",
+      "{{ site.x }}"
     ],
-    "knowsAbout": ["Artificial Intelligence", "LLM Agents", "AI Governance", "Product Strategy", "Systems Engineering", "Generative AI", "Prompt Engineering", "Agentic Systems", "Cybersecurity", "UX Research"]
+    "knowsAbout": ["Artificial Intelligence", "AI Product Management", "Large Language Models", "LLM Agents", "Agentic AI", "AI Governance", "Responsible AI", "Generative AI", "Prompt Engineering", "AI Platform Architecture", "Product Strategy", "Enterprise Software", "Systems Engineering", "UX Research", "Human-Computer Interaction", "Usability Testing", "Cybersecurity", "Technical Writing"]
   }
   </script>
 </head>
