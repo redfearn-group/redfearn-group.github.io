@@ -1,7 +1,7 @@
 ---
 layout: layouts/case-study.njk
 title: "Scaling Enterprise SaaS Adoption 75x at IBM"
-description: "Growth loops built with engineering and analytics turned a stalled enterprise SaaS platform into 35,000 incremental downloads and a 75x jump in adoption."
+description: "Growth loops built with engineering and analytics turned a stalled enterprise SaaS platform into 35,000 incremental downloads and a 75x jump in adoption. The platform work was folded into IBM Watson."
 order: 4
 featured: false
 themes: ["Growth & PLG", "Product Leadership"]
@@ -22,12 +22,14 @@ stats:
 
 An enterprise SaaS platform at IBM had a usability problem dressed up as a marketing problem. Adoption was flat, and the instinct in the room was to spend more on awareness. The actual blocker was inside the product.
 
+This was 2012. The workflow automation and modular service work from this engagement was folded directly into IBM Watson. Nobody called it AI product management at the time. It is the reason I date building AI products to 2012 rather than to whenever the category got a name.
+
 ## What I Built
 
 - **Usability improvements and growth experiments** that increased SaaS adoption by 35,000 downloads, the equivalent of saving 13,125 days of manual work across the customer base.
 - **Data-driven growth loops**, built jointly with engineering and analytics, that scaled adoption 75x by compounding small conversion improvements. No big redesign required.
 - **VM initiatives for enterprise platforms** that secured 24 new contracts by removing deployment friction that had been quietly costing sales cycles.
-- **Workflow automation and modular services** that improved enterprise efficiency beyond the immediate adoption metrics.
+- **Workflow automation and modular services** that improved enterprise efficiency beyond the immediate adoption metrics, and that were folded into IBM Watson.
 
 <figure class="diagram">
 <svg viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Growth loop diagram showing four steps in a cycle: fix usability, compound conversion, drive 35,000 downloads, and secure 24 new contracts, feeding back into fixing usability, with 75x adoption scaled shown at the center.">
@@ -76,4 +78,4 @@ Adoption scaled 75x. The 35,000 additional downloads translated to a measurable 
 
 ## Skills Demonstrated
 
-Product-led growth strategy, enterprise SaaS adoption, cross-functional growth loop design, usability-driven product improvement, enterprise sales enablement.
+Product-led growth strategy, enterprise SaaS adoption, cross-functional growth loop design, usability-driven product improvement, enterprise sales enablement, early AI product work.
