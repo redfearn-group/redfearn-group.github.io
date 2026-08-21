@@ -112,7 +112,7 @@ bodyClass: content-layer
     "name": {{ title | dump | safe }},
     "author": [
       {%- for a in authors -%}
-      {"@type": "Person", "name": {{ a.name | dump | safe }}{% if a.self %}, "url": "{{ site.url }}/about/"{% endif %}}{% if not loop.last %},{% endif %}
+      {"@type": "Person", "name": {{ a.name | dump | safe }}{% if a.self %}, "@id": {{ site.orcid | dump | safe }}, "url": "{{ site.url }}/about/", "identifier": {"@type": "PropertyValue", "propertyID": "ORCID", "value": {{ site.orcid | dump | safe }}}{% endif %}}{% if not loop.last %},{% endif %}
       {%- endfor -%}
     ],
     "datePublished": "{{ year }}",
