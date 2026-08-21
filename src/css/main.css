@@ -113,7 +113,16 @@ p.lead { font-size: 1.15rem; font-weight: 300; color: var(--rg-slate); }
 }
 .site-nav__toggle { display: none; }
 
-@media (max-width: 720px) {
+/* Seven nav items plus a 305px wordmark need ~986px of row, but the drawer
+   only took over at 720px, so 721-856px already overflowed and was silently
+   hidden by `overflow-x: clip` on body. Tighten the row and shrink the mark
+   through the laptop band, and hand off to the drawer at 860 instead. */
+@media (min-width: 861px) and (max-width: 1080px) {
+  .site-nav__brand img { height: 40px; }
+  .site-nav__links { gap: 1.1rem; font-size: 0.7rem; }
+}
+
+@media (max-width: 860px) {
   .site-nav__links {
     position: fixed;
     top: 86px;
@@ -467,6 +476,90 @@ p.lead { font-size: 1.15rem; font-weight: 300; color: var(--rg-slate); }
 }
 .filter-pill.is-active,
 .filter-pill:hover { border-color: var(--rg-red); color: var(--rg-red); }
+
+/* ---------- Publications ----------
+   Listing rows reuse .post-list__item; only the detail page needs anything
+   new here. Nothing below redeclares a brand.css component. */
+.pub-authors {
+  font-size: 0.95rem;
+  font-weight: 300;
+  color: var(--rg-slate);
+  margin: 0 0 1.25rem;
+}
+.pub-authors b { font-weight: 500; color: var(--rg-blue); }
+
+.pub-links {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-top: 2.5rem;
+}
+
+.pub-cite {
+  max-width: 700px;
+  margin-top: 3rem;
+  padding-top: 2rem;
+  border-top: 1px solid rgba(10,17,40,0.08);
+}
+.pub-cite__text {
+  font-size: 0.95rem;
+  font-weight: 300;
+  line-height: 1.7;
+  color: var(--rg-slate);
+  /* A citation gets copied by hand as often as it gets read. Let it break
+     anywhere rather than pushing a long DOI past the container. */
+  overflow-wrap: anywhere;
+}
+
+.bibtex {
+  margin-top: 1.5rem;
+  border: 1px solid rgba(10,17,40,0.10);
+  border-radius: 4px;
+  overflow: hidden;
+  background: var(--rg-blue);
+}
+.bibtex__head {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid rgba(247,244,239,0.12);
+}
+.bibtex__label {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: rgba(247,244,239,0.55);
+}
+.bibtex__copy {
+  font-family: var(--font-mono);
+  font-weight: 500;
+  font-size: 0.7rem;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 0.3rem 0.75rem;
+  border-radius: 3px;
+  border: 1px solid rgba(247,244,239,0.25);
+  background: transparent;
+  color: var(--rg-cream);
+  cursor: pointer;
+  transition: border-color 0.15s, color 0.15s;
+}
+/* Tawny, not ember: this sits on the dark --rg-blue panel, where brand.css
+   documents ember-as-text as failing contrast (hence .app-layer .tag-ember). */
+.bibtex__copy:hover { border-color: var(--rg-tawny); color: var(--rg-tawny); }
+.bibtex pre {
+  margin: 0;
+  padding: 1.1rem 1rem;
+  overflow-x: auto;
+  font-family: var(--font-mono);
+  font-size: 0.8rem;
+  line-height: 1.6;
+  color: var(--rg-cream);
+}
 
 /* ---------- Utility ---------- */
 .text-center { text-align: center; }

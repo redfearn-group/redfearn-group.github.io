@@ -1,0 +1,67 @@
+---
+layout: layouts/base.njk
+title: "Publications"
+description: "A PhD dissertation, an MS thesis, and five peer-reviewed conference papers on mixed reality interaction design, health informatics, and IT curriculum."
+bodyClass: content-layer
+ogSlug: publications
+---
+<section class="section wrap">
+  <div class="eyebrow">Publications</div>
+  <h1>Peer-reviewed work, with the receipts.</h1>
+  <p class="lead" style="max-width: 660px;">
+    Research from the PhD and MS years: mixed reality interaction design, rapid prototyping methods
+    for head-worn displays, and what actually counts as an IT degree. Every entry links to the
+    publisher's record of the paper, not a summary of it.
+  </p>
+
+  <div class="metrics" style="margin-top: 3rem; max-width: 620px;">
+    <div>
+      <div class="metric__value">22</div>
+      <div class="metric__label">Citations</div>
+    </div>
+    <div>
+      <div class="metric__value">2</div>
+      <div class="metric__label">h-index</div>
+    </div>
+    <div>
+      <div class="metric__value">1</div>
+      <div class="metric__label">i10-index</div>
+    </div>
+  </div>
+  <p class="small" style="margin-top: 1.25rem; color: var(--rg-ash);">
+    Per <a href="{{ site.scholar }}" target="_blank" rel="noopener" style="color: var(--accent);">Google Scholar</a>, as of August 2026.
+  </p>
+
+  <h2 class="section-label" style="margin-top: 4rem;">Dissertation &amp; Thesis</h2>
+  <div>
+    {% for pub in collections.publications %}{% if pub.data.type == "dissertation" or pub.data.type == "thesis" %}
+    <a href="{{ pub.url }}" class="post-list__item">
+      <div>
+        <h3 class="post-list__title">{{ pub.data.title }}</h3>
+        <p class="small" style="margin: 0.4rem 0 0; color: var(--rg-slate);">{{ pub.data.description }}</p>
+      </div>
+      <span class="post-list__meta">{{ pub.data.venue.short }} &middot; {{ pub.data.year }}</span>
+    </a>
+    {% endif %}{% endfor %}
+  </div>
+
+  <h2 class="section-label" style="margin-top: 3.5rem;">Conference Papers &amp; Talks</h2>
+  <div>
+    {% for pub in collections.publications %}{% if pub.data.type != "dissertation" and pub.data.type != "thesis" %}
+    <a href="{{ pub.url }}" class="post-list__item">
+      <div>
+        <h3 class="post-list__title">{{ pub.data.title }}</h3>
+        <p class="small" style="margin: 0.4rem 0 0; color: var(--rg-slate);">
+          {%- for a in pub.data.authors -%}{{ a.name }}{% if not loop.last %}, {% endif %}{%- endfor -%}
+          {%- if pub.data.citations %} &middot; {{ pub.data.citations }} citations{% endif %}
+        </p>
+      </div>
+      <span class="post-list__meta">{{ pub.data.venue.short }}</span>
+    </a>
+    {% endif %}{% endfor %}
+  </div>
+
+  <p class="small" style="margin-top: 2.5rem; color: var(--rg-ash);">
+    Longer-form independent analysis lives in <a href="/reports/" style="color: var(--accent);">Reports</a>.
+  </p>
+</section>

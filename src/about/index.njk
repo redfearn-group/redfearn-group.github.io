@@ -181,47 +181,21 @@ ogSlug: about
     engineering practice.
   </p>
 
-  <h3 style="margin-top: 2.5rem; font-size: 1rem;">Dissertation &amp; Thesis</h3>
-  <div class="timeline" style="margin-top: 1.5rem;">
+  <div class="timeline" style="margin-top: 2.5rem;">
+    {% for pub in collections.publications | limit(3) %}
     <div class="timeline__item">
-      <div class="timeline__period">PhD Dissertation, Virginia Tech, 2018</div>
-      <h3 class="timeline__role"><a href="https://vtechworks.lib.vt.edu/handle/10919/82056" target="_blank" rel="noopener" style="color: var(--rg-blue);">Rapid Design and Prototyping Methods for Mobile Head-Worn Mixed Reality (MR) Interface and Interaction Systems &rarr;</a></h3>
-      <p class="small">Advised by Dr. Joe Gabbard. Thirteen experiments evaluating rapid prototyping methods for 3D head-worn display systems in the first responder domain.</p>
+      <div class="timeline__period">{{ site.pubTypes[pub.data.type] }}, {{ pub.data.venue.short }}, {{ pub.data.year }}</div>
+      <h3 class="timeline__role"><a href="{{ pub.url }}" style="color: var(--rg-blue);">{{ pub.data.title }} &rarr;</a></h3>
+      <p class="small">{{ pub.data.description }}</p>
     </div>
-    <div class="timeline__item">
-      <div class="timeline__period">MS Thesis, Brigham Young University, 2013</div>
-      <h3 class="timeline__role"><a href="https://scholarsarchive.byu.edu/etd/3762/" target="_blank" rel="noopener" style="color: var(--rg-blue);">User Experience Engineering Adoption and Practice: A Longitudinal Case Study &rarr;</a></h3>
-    </div>
+    {% endfor %}
   </div>
 
-  <h3 style="margin-top: 2.5rem; font-size: 1rem;">Conference Papers</h3>
-  <div class="timeline" style="margin-top: 1.5rem;">
-    <div class="timeline__item">
-      <div class="timeline__period">ICMHI 2019</div>
-      <h3 class="timeline__role"><a href="https://dl.acm.org/doi/abs/10.1145/3340037.3340050" target="_blank" rel="noopener" style="color: var(--rg-blue);">Mixed Reality Patients Monitoring Application for Critical Care Nurses &rarr;</a></h3>
-      <p class="small">With C. Teng et al. 14 citations.</p>
-    </div>
-    <div class="timeline__item">
-      <div class="timeline__period">SIGITE 2019</div>
-      <h3 class="timeline__role">Identifying and Evaluating Information Technology Baccalaureate Degree Programs per IT2017</h3>
-      <p class="small">With B. Lunt et al. 7 citations.</p>
-    </div>
-    <div class="timeline__item">
-      <div class="timeline__period">SIGITE 2019</div>
-      <h3 class="timeline__role"><a href="https://dl.acm.org/doi/10.1145/3349266.3351355" target="_blank" rel="noopener" style="color: var(--rg-blue);">Pedagogical Strategies for Classroom-based Mixed Reality (MR) Technology Curriculum &rarr;</a></h3>
-    </div>
-    <div class="timeline__item">
-      <div class="timeline__period">UXPA International Conference, 2019</div>
-      <h3 class="timeline__role">Implementing Effective Rapid Design and Prototyping Strategies for AR/MR/VR</h3>
-    </div>
-    <div class="timeline__item">
-      <div class="timeline__period">SIGITE 2018</div>
-      <h3 class="timeline__role"><a href="https://dl.acm.org/doi/10.1145/3241815.3241830" target="_blank" rel="noopener" style="color: var(--rg-blue);">CC2020 &mdash; What It Is and Why You Should Care &rarr;</a></h3>
-      <p class="small">With B. Lunt.</p>
-    </div>
-  </div>
-
-  <p class="small" style="margin-top: 2rem; color: var(--rg-ash);"><a href="https://scholar.google.com/citations?user=SQKgljkAAAAJ&hl=en" target="_blank" rel="noopener" style="color: var(--rg-red);">Full record on Google Scholar &rarr;</a></p>
+  <p class="small" style="margin-top: 2rem; color: var(--rg-ash);">
+    <a href="/publications/" style="color: var(--rg-red);">All {{ collections.publications | length }} publications, with abstracts and citations &rarr;</a>
+    &nbsp;&middot;&nbsp;
+    <a href="{{ site.scholar }}" target="_blank" rel="noopener" style="color: var(--rg-red);">Google Scholar &rarr;</a>
+  </p>
 </section>
 
 <section class="section section--border-top wrap">

@@ -1,0 +1,149 @@
+---
+layout: layouts/base.njk
+bodyClass: content-layer
+---
+<article>
+  <header class="section section--tight wrap" style="padding-bottom: 0;">
+    <div class="eyebrow">{{ site.pubTypes[type] or "Publication" }}</div>
+    <h1>{{ title }}</h1>
+    <p class="pub-authors">
+      {%- for a in authors -%}
+        {%- if a.self %}<b>{{ a.name }}</b>{% else %}{{ a.name }}{% endif -%}
+        {%- if not loop.last %}, {% endif -%}
+      {%- endfor -%}
+    </p>
+    <div class="cs-meta">
+      <span class="tag tag-ember">{{ venue.short }}</span>
+      {% if institution %}<span class="tag tag-neutral">{{ institution }}</span>{% endif %}
+      {% if citations %}<span class="tag tag-neutral">{{ citations }} citations</span>{% endif %}
+      {% for k in keywords %}<span class="tag tag-tawny">{{ k }}</span>{% endfor %}
+    </div>
+  </header>
+
+  <div class="section section--tight wrap">
+    <div class="prose">
+      <h2>Abstract</h2>
+      {{ content | safe }}
+    </div>
+
+    <div class="pub-links">
+      {% if doi %}
+      <a class="btn btn-ghost" href="https://doi.org/{{ doi }}" target="_blank" rel="noopener">Publisher record (DOI) &rarr;</a>
+      {% elif publisherUrl %}
+      <a class="btn btn-ghost" href="{{ publisherUrl }}" target="_blank" rel="noopener">Publisher record &rarr;</a>
+      {% endif %}
+      {% if repositoryUrl %}
+      <a class="btn btn-ghost" href="{{ repositoryUrl }}" target="_blank" rel="noopener">Institutional repository &rarr;</a>
+      {% endif %}
+      {# Gated on the file existing, not just on a path being set. Only three of
+         these are postable at all; the ACM four wait on accepted manuscripts. #}
+      {% if rights.pdf | fileExists %}
+      <a class="btn btn-primary" href="{{ rights.pdf }}">
+        {%- if rights.postable == "accepted" %}PDF (accepted manuscript)
+        {%- elif type == "talk" %}Slide deck (PDF)
+        {%- else %}Download PDF{% endif -%}
+      </a>
+      {% endif %}
+    </div>
+
+    {# ACM holds copyright on the conference papers: only the author-prepared
+       accepted version may ever be posted here, never the Digital Library
+       Version of Record, and the DOI must point at it. #}
+    {% if rights.transferred %}
+    <div class="callout co-note" style="max-width: 700px; margin-top: 2.5rem;">
+      <div class="lbl">Copyright</div>
+      <p>
+        &copy; {{ year }} {{ rights.holder }}.
+        {%- if rights.pdf | fileExists %}
+        The PDF above is the author's accepted version, posted here for personal use
+        and not for redistribution.
+        {%- else %}
+        The full text is not hosted here.
+        {%- endif %}
+        The definitive Version of Record was published in
+        <i>{{ venue.full }}</i>{% if doi %}, <a href="https://doi.org/{{ doi }}" target="_blank" rel="noopener">https://doi.org/{{ doi }}</a>{% endif %}.
+      </p>
+    </div>
+    {% elif type == "talk" %}
+    <div class="callout co-note" style="max-width: 700px; margin-top: 2.5rem;">
+      <div class="lbl">Note</div>
+      <p>Presented as a conference talk. No proceedings were published, so there is no DOI or archival record for this item.</p>
+    </div>
+    {% endif %}
+
+    <div class="pub-cite">
+      <h2 class="section-label">Cite this</h2>
+      <p class="pub-cite__text">
+        {%- for a in authors -%}{{ a.name }}{% if not loop.last %}, {% endif %}{%- endfor -%}.
+        ({{ year }}).
+        <i>{{ title }}</i>.
+        {{ venue.full }}{% if location %}, {{ location }}{% endif %}{% if pages %}, pp. {{ pages }}{% endif %}.
+        {%- if venue.publisher %} {{ venue.publisher }}.{% endif %}
+        {%- if doi %} https://doi.org/{{ doi }}{% endif %}
+      </p>
+
+      <div class="bibtex">
+        <div class="bibtex__head">
+          <span class="bibtex__label">BibTeX</span>
+          <button type="button" class="bibtex__copy" id="bibCopy" hidden>Copy</button>
+        </div>
+        <pre id="bibText">{{ bibtex }}</pre>
+      </div>
+
+      {% if citations %}
+      <p class="small" style="margin-top: 1.25rem; color: var(--rg-ash);">
+        {{ citations }} citations per <a href="{{ site.scholar }}" target="_blank" rel="noopener" style="color: var(--accent);">Google Scholar</a>, as of {{ citationsAsOf }}.
+      </p>
+      {% endif %}
+    </div>
+
+    <p class="small" style="margin-top: 2.5rem; color: var(--rg-ash);">
+      <a href="/publications/" style="color: var(--accent);">&larr; All publications</a>
+    </p>
+  </div>
+
+  {# JSON-LD lives in the body, not base.njk's shared <head>, which cannot see
+     this layout's front matter. Structured data is indexed anywhere in the doc. #}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": {% if type == "dissertation" or type == "thesis" %}"Thesis"{% else %}"ScholarlyArticle"{% endif %},
+    "headline": {{ title | dump | safe }},
+    "name": {{ title | dump | safe }},
+    "author": [
+      {%- for a in authors -%}
+      {"@type": "Person", "name": {{ a.name | dump | safe }}{% if a.self %}, "url": "{{ site.url }}/about/"{% endif %}}{% if not loop.last %},{% endif %}
+      {%- endfor -%}
+    ],
+    "datePublished": "{{ year }}",
+    "inLanguage": "en",
+    "url": "{{ site.url }}{{ page.url }}",
+    {% if doi %}"identifier": {"@type": "PropertyValue", "propertyID": "DOI", "value": {{ doi | dump | safe }}},
+    "sameAs": "https://doi.org/{{ doi }}",{% elif repositoryUrl %}"sameAs": {{ repositoryUrl | dump | safe }},{% endif %}
+    {% if type == "dissertation" or type == "thesis" %}
+    "inSupportOf": {% if type == "dissertation" %}"Doctor of Philosophy"{% else %}"Master of Science"{% endif %},
+    "sourceOrganization": {"@type": "CollegeOrUniversity", "name": {{ institution | dump | safe }}},
+    {% else %}
+    "isPartOf": {"@type": "PublicationVolume", "name": {{ venue.full | dump | safe }}},
+    "publisher": {"@type": "Organization", "name": {{ venue.publisher | dump | safe }}},
+    {% endif %}
+    "keywords": {{ keywords | dump | safe }},
+    "abstract": {{ description | dump | safe }}
+  }
+  </script>
+</article>
+
+<script>
+  (function () {
+    var btn = document.getElementById('bibCopy');
+    var pre = document.getElementById('bibText');
+    if (!btn || !pre || !navigator.clipboard) return;
+    btn.hidden = false;
+    btn.addEventListener('click', function () {
+      navigator.clipboard.writeText(pre.textContent.trim()).then(function () {
+        btn.textContent = 'Copied';
+        setTimeout(function () { btn.textContent = 'Copy'; }, 1600);
+      });
+    });
+  })();
+</script>

@@ -19,7 +19,17 @@ export default {
     { label: "Frameworks", url: "/frameworks/" },
     { label: "Insights", url: "/insights/" },
     { label: "Reports", url: "/reports/" },
+    { label: "Publications", url: "/publications/" },
     { label: "About", url: "/about/" },
     { label: "Contact", url: "/contact/" },
   ],
+  // Eyebrow labels for the publications collection. Lives here so the listing
+  // page and the detail layout cannot drift apart.
+  pubTypes: {
+    dissertation: "PhD Dissertation",
+    thesis: "Master's Thesis",
+    "conference-paper": "Conference Paper",
+    "extended-abstract": "Extended Abstract",
+    talk: "Conference Talk",
+  },
 };
