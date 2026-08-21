@@ -9,6 +9,11 @@ export default {
   linkedin: "https://linkedin.com/in/redfearnb/",
   github: "https://github.com/redfearn-group",
   scholar: "https://scholar.google.com/citations?user=SQKgljkAAAAJ",
+  // Not a profile Brady maintains, so it is never surfaced as a link for
+  // humans. It earns its place as a persistent identifier: schema.org @id
+  // and sameAs, which is what lets search engines resolve the ACM DOIs, the
+  // Scholar profile, and this site to one person.
+  orcid: "https://orcid.org/0000-0003-3074-2083",
   researchgate: "https://www.researchgate.net/profile/Brady-Redfearn",
   x: "https://x.com/redfearnb",
   location: "Spanish Fork, UT",
