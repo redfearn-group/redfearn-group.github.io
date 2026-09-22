@@ -175,7 +175,7 @@ renderCard("title-15-calculations", {
 renderCard("title-15-amendment-analysis", {
   eyebrow: "Report",
   title: "Title 15 Amendment Analysis for Spanish Fork",
-  description: "An independent review of a proposed data center ordinance. 75 primary sources.",
+  description: "An independent review of a proposed data center ordinance, revised against the record.",
 });
 
 // Case studies
