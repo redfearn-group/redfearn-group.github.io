@@ -1,11 +1,11 @@
 ---
 layout: layouts/case-study.njk
 title: "UX Research for Amazon Echo and Sonos Play:5, Concurrent With a PhD"
-description: "Cross-device usability research for two of the most consequential consumer hardware launches of the decade, run alongside full-time doctoral research."
-order: 7
+description: "Usability research for Amazon Echo in its first year on the market and for Sonos Play:5, run alongside full-time doctoral research."
+order: 8
 featured: false
-themes: ["UX Research"]
-role: "User Experience Researcher, Amazon & Sonos"
+themes: ["Human-AI Interaction", "UX Research"]
+role: "UX Researcher & Design Partner, Amazon Echo and Sonos Play:5 Beta Programs"
 scale: "Consumer hardware, cross-device platforms"
 period: "November 2014 to December 2015"
 ogSlug: "cs-consumer-hardware-ux-research"
@@ -22,7 +22,7 @@ Two hardware platforms, Amazon's Echo and Sonos's Play:5, needed real usability 
 
 ## What I Built
 
-- **UX research and usability testing for the Amazon Echo platform**, focused on cross-device usability between Windows and Android at a moment when voice-first hardware was still an open question, not a category.
+- **UX research and evaluation for the Amazon Echo platform in its first year on the market**, covering voice interaction and the companion app across Windows and Android, and identifying where voice interactions broke down. Structured feedback on interaction patterns and early AI implementations went to Amazon product staff through an invited early-access program.
 - **UX research and usability testing for Sonos's Play:5 platform**, partnering directly with product and engineering to refine hardware and software integration and improve adoption.
 - **Design recommendations that fed directly into product iteration** on both platforms. This wasn't research that got filed away after the readout.
 - **A research practice that held up under a genuinely brutal schedule**, running two concurrent industry engagements against full-time doctoral research without cutting corners on either.
@@ -50,7 +50,7 @@ Cross-device usability research is hard enough when hardware, software, and plat
 
 ## Outcome
 
-Both engagements delivered design recommendations that shaped real product iterations, on platforms that went on to define their categories. The research discipline built here was rigorous, fast, and resistant to schedule pressure. That's the same discipline I later applied to enterprise AI and governance work.
+Both engagements delivered design recommendations that shaped real product iterations, on platforms that went on to define their categories. The research discipline built here was rigorous, fast, and resistant to schedule pressure. Echo was an early case of the question the rest of this library keeps returning to: a system acting on a person's behalf, and where the interaction breaks down.
 
 ## Skills Demonstrated
 

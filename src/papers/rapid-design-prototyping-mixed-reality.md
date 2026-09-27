@@ -2,6 +2,7 @@
 title: "Rapid Design and Prototyping Methods for Mobile Head-Worn Mixed Reality (MR) Interface and Interaction Systems"
 ogTitle: "Rapid Design and Prototyping for Head-Worn Mixed Reality"
 description: "Thirteen experiments applying user-centered design methods to 3D head-worn display systems in the first responder domain, and what each method was actually worth."
+context: "The underlying question was how a person works with a system that decides things for them: what it surfaces, when it defers to the human, and how it fails safely. That is the human-AI interaction problem, worked out before the models existed to run it."
 order: 1
 type: dissertation
 year: 2018

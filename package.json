@@ -1,7 +1,7 @@
 {
   "name": "redfearn-group.github.io",
   "version": "1.0.0",
-  "description": "Redfearn Group - executive AI/technical leadership site, case study library, and blog.",
+  "description": "Redfearn Group: Brady Redfearn's AI product site, case study library, and blog.",
   "main": "eleventy.config.js",
   "type": "module",
   "scripts": {

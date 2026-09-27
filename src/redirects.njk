@@ -1,0 +1,34 @@
+---
+# Old URLs that still get linked from elsewhere. Each one renders a noindex
+# stub that forwards to its replacement, since GitHub Pages has no server-side
+# redirects.
+redirects:
+  - from: /work/jsoc-defense-innovation/
+    to: /work/talos-human-ai-interaction/
+  - from: /work/excel-eye-center-emr/
+    to: /work/
+  - from: /work/lds-family-history-noc-design/
+    to: /work/
+  - from: /insights/vr-one-job/
+    to: /insights/
+pagination:
+  data: redirects
+  size: 1
+  alias: r
+permalink: "{{ r.from }}index.html"
+layout: false
+eleventyExcludeFromCollections: true
+---
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Moved</title>
+<meta name="robots" content="noindex">
+<link rel="canonical" href="{{ site.url }}{{ r.to }}">
+<meta http-equiv="refresh" content="0; url={{ r.to }}">
+</head>
+<body>
+<p>This page moved to <a href="{{ r.to }}">{{ site.url }}{{ r.to }}</a>.</p>
+</body>
+</html>

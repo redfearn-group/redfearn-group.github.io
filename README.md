@@ -8,7 +8,7 @@ The Redfearn Group marketing site: portfolio, case studies, and the Insights blo
 
 Eleventy with Nunjucks templates and markdown content. No client framework. Every page is static HTML.
 
-This is the one property not built on Astro. The three trackers are data-driven, reading YAML into typed tables; this site is content-driven, 16 markdown posts and a set of templates, plus RSS and generated OG card images. Eleventy fits that shape, so the split is deliberate rather than drift.
+This is the one property not built on Astro. The three trackers are data-driven, reading YAML into typed tables; this site is content-driven, markdown content and a set of templates, plus RSS and generated OG card images. Eleventy fits that shape, so the split is deliberate rather than drift.
 
 ```
 src/

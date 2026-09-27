@@ -3,9 +3,10 @@ layout: layouts/case-study.njk
 title: "Scaling to 4 Concurrent AI Programs and Architecting the Platform to Unify Them"
 description: "Took an institution from one AI initiative to four running in parallel, then built the platform architecture that let them share one foundation."
 order: 1
+setting: 7
 featured: true
 themes: ["AI Strategy", "Product Leadership"]
-role: "Senior Technology Solutions Strategist"
+role: "Senior Solutions Strategist (Enterprise AI Platform Product Management)"
 scale: "Large public institution"
 period: "Current"
 ogSlug: "cs-ai-platform-architecture"
@@ -27,8 +28,9 @@ A large public institution had one AI initiative and wanted four: healthcare ePo
 - **Scaled from 1 to 4 concurrent AI programs**, each at a distinct delivery phase, without collapsing them into a single undifferentiated backlog or losing any program's specific stakeholder relationships.
 - **Ran a 20+ vendor EdTech market analysis**, benchmarked against institutional systems-of-record data, and delivered a weighted recommendation to senior stakeholders that drove platform selection and a six-capability pedagogy roadmap.
 - **Led SaaS vendor engagement from contract through pilot launch**, coordinating LTI 1.3 integration across academic and LMS partners and delivering five artifacts to senior leadership within 30 days of kickoff.
+- **Prototyped in working software rather than specifying and handing off**, building daily with Claude Code and agentic coding tools, so architecture and UX decisions were tested against something running before they reached a document.
 - **Built a GenAI-powered workflow automation system for my own team**, seven purpose-built AI skills orchestrating retrospectives, documentation, research synthesis, and tracking across four active workstreams.
-- **Architected the full product spec for an institutional AI platform** across eight-plus domains, RBAC, LTI 1.3/SSO, data hierarchy, conversation design, and UX standards, from prototype through architecture-lock.
+- **Architected the full product spec for an institutional AI platform serving more than 200,000 learners**, across eight-plus domains: RBAC, LTI 1.3/SSO, data hierarchy, conversation design, and UX standards, from prototype through architecture-lock.
 
 <figure class="diagram">
 <svg viewBox="0 0 900 380" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram showing four AI programs, healthcare ePortfolio, interactive math, AI tutoring, and financial training, unified by one platform architecture spanning RBAC, LTI 1.3 and SSO, data hierarchy, conversation design, UX standards, and additional domains.">

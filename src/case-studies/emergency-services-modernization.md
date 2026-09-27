@@ -1,12 +1,13 @@
 ---
 layout: layouts/case-study.njk
-title: "Modernization Roadmaps for Emergency Services, Built From the Front Line Up"
-description: "Two 50-page operational assessments and six customer discovery engagements that turned frontline pain points into procurement-ready modernization roadmaps."
-order: 3
+title: "Deciding Where AI Can Be Trusted in a 911 Call Center"
+description: "Governance criteria for where AI can be safely deployed in 9-1-1, where a wrong output costs a life, and the assessments that turned them into pilot and procurement decisions."
+order: 2
+setting: 6
 featured: true
-themes: ["Federal & Defense", "AI Strategy"]
-role: "Principal AI Product Strategist, Defense Technology Contractor"
-scale: "Emergency services providers, federal contracting"
+themes: ["AI Governance", "AI Strategy"]
+role: "Founder and Principal, AI Product, Redfearn Group"
+scale: "Next Generation 9-1-1"
 period: "October 2024 to February 2026"
 ogSlug: "cs-emergency-services-modernization"
 stats:
@@ -20,13 +21,15 @@ stats:
 
 ## Situation
 
-Emergency services providers needed to modernize their technology stack. The usual failure mode in that world: a vendor shows up with a platform pitch before anyone's documented what's actually broken on the ground. Investment decisions were getting made off vendor demos, not operational reality.
+Next Generation 9-1-1 raised a question nobody had a settled answer to: where can AI be safely deployed in a call center, where a wrong model output costs a life? Emergency services providers also needed to modernize their technology stack. The usual failure mode in that world: a vendor shows up with a platform pitch before anyone's documented what's actually broken on the ground. Investment decisions were getting made off vendor demos, not operational reality.
 
 ## What I Built
 
-- **Authored two 50-page operational assessments** for emergency services providers, delivering vendor evaluation criteria, competitive analysis, and prioritized modernization roadmaps that guided real pilot and procurement decisions.
+- **Determined where AI can be safely deployed in 9-1-1 call centers**, and built the governance criteria for making that call.
+- **Ran primary field research across vendors and live deployment sites**, separating the AI capabilities that held up in operational use from the ones that did not, including drone-as-first-responder providers.
+- **Authored two 50-page operational assessments** for emergency services providers, delivering vendor evaluation criteria, competitive analysis, and prioritized modernization roadmaps that drove pilot and procurement decisions and fed national guidance on AI adoption in emergency communication centers.
 - **Ran six customer discovery engagements with operations leadership**, translating frontline pain points directly into prioritized product requirements and integration recommendations, not a vendor's feature list.
-- **Presented findings in 30 executive briefings and stakeholder-facing sessions**, informing investment prioritization and vendor selection at the level where the budget decisions actually get made.
+- **Convened 50 practitioners, vendors, and policy stakeholders in Washington, DC, and delivered 30 executive briefings**, shaping investment prioritization, vendor selection, and policy direction for AI adoption in emergency response.
 - **Facilitated cross-organizational strategy and governance sessions**, producing executable roadmaps that covered pilot, scale, and steady-state operations, not just the exciting first phase.
 
 <figure class="diagram">
@@ -68,4 +71,4 @@ Two comprehensive assessments gave emergency services providers a procurement-re
 
 ## Skills Demonstrated
 
-Operational assessment and technology strategy, customer discovery at the executive level, vendor evaluation frameworks, cross-organizational governance facilitation, public-sector modernization planning.
+AI governance criteria, operational assessment and technology strategy, customer discovery at the executive level, vendor evaluation frameworks, cross-organizational governance facilitation, public-sector modernization planning.
