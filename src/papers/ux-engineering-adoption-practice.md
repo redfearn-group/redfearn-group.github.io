@@ -1,6 +1,7 @@
 ---
 title: "User Experience Engineering Adoption and Practice: A Longitudinal Case Study"
 description: "A three-year case study of what happens to a small enterprise when UX engineering is adopted for real, measured across ten metrics."
+context: "The subject was organizational adoption of an unfamiliar practice: what changes, and what it costs. Enterprises are working through the same problem with AI now."
 order: 2
 type: thesis
 year: 2013

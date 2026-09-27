@@ -16,7 +16,7 @@ I keep seeing autonomy treated as binary: a human approves every action, or the 
 
 That dial position moves for every workflow. A support ticket triage agent and one that touches financial records need different settings. Wrap the same governance around both and you'll over-constrain the low-risk one and under-constrain the high-risk one.
 
-## Governance is the unlock
+## Design governance alongside the system
 
 I've led AI and LLM research inside a defense contracting environment, where a bad output isn't a bug report, it's a compliance problem with federal implications. The lesson wasn't about the model. It was that governance has to get designed alongside the system, in parallel, from day one. Otherwise it becomes a separate project that never catches up to what engineering already shipped.
 

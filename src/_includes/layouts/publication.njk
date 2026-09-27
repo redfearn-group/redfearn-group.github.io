@@ -22,6 +22,7 @@ bodyClass: content-layer
 
   <div class="section section--tight wrap">
     <div class="prose">
+      {% if context %}<p class="lead">{{ context }}</p>{% endif %}
       <h2>Abstract</h2>
       {{ content | safe }}
     </div>

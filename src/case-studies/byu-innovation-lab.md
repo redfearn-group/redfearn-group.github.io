@@ -1,10 +1,11 @@
 ---
 layout: layouts/case-study.njk
-title: "Building an Innovation Lab From Nothing: $325K Raised, 200+ Students Shipped"
-description: "Founded and scaled a university innovation lab from zero, bridging academic research and commercial productization for over 200 students."
-order: 6
+title: "Teaching People to Direct and Override Intelligent Systems, and Building the Lab to Do It"
+description: "Built the Advanced HCI curriculum around adaptive interfaces and founded a university innovation lab from zero, raising $325K and mentoring 200+ students."
+order: 5
+setting: 4
 featured: false
-themes: ["Program Building", "UX Research"]
+themes: ["Human-AI Interaction", "Program Building"]
 role: "Lab Director & Visiting Assistant Professor, Brigham Young University"
 scale: "University innovation lab, founded from zero"
 period: "September 2018 to December 2020"
@@ -20,15 +21,16 @@ stats:
 
 ## Situation
 
-There was no lab. Just an idea: students build better AR/VR and mobile products working on real problems with real constraints, not academic exercises. No budget, no space, no industry relationships to make it happen yet.
+There was no lab, and no course built around intelligent interfaces. The idea: students learn to design for systems that make decisions on a user's behalf, and build products against real problems with real constraints, not academic exercises. No budget, no space, no industry relationships to make it happen yet.
 
 ## What I Built
 
+- **Built the Advanced HCI curriculum around intelligent and adaptive interfaces**, teaching students to design for systems that make decisions on a user's behalf.
+- **Led research and prototyping on AI interaction and user control**, testing how people direct, correct, and override intelligent systems in applied settings.
 - **Founded and scaled an innovation lab from zero**, raising $325K and mentoring 200+ students through AR/VR and mobile prototypes that shipped, not just demoed.
 - **Applied product-led growth experimentation to student-facing platforms**, treating the lab's own tools as products worth measuring and iterating on.
 - **Bridged academic research with commercial productization**, securing $22K for the program's first industry-sponsored capstone project, the deal that proved outside companies would trust student teams with real problems.
 - **Championed composable service design**, building reusable components multiple student projects could reuse directly. No team had to start from zero.
-- **Taught across the full stack of the discipline**, Mixed Reality, Advanced HCI, Senior Capstone, Intro to UX, UX Studio, Intro to Networking, and Applied UX, mentoring students who went on to careers in SaaS, EdTech, and cybersecurity.
 
 <figure class="diagram">
 <svg viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Milestone path from 2018 to 2020 showing zero budget at the start, the first sponsored capstone worth 22,000 dollars as proof it worked, and 325,000 dollars total raised by 2020, alongside 200 plus students mentored.">
@@ -62,4 +64,4 @@ $325K raised to build a program that didn't exist before. Over 200 students ment
 
 ## Skills Demonstrated
 
-Program building from zero, fundraising and sponsor development, mentorship at scale, curriculum design bridging theory and practice, AR/VR and mobile product development.
+Program building from zero, fundraising and sponsor development, mentorship at scale, curriculum design bridging theory and practice, human-AI interaction research, AR/VR and mobile prototyping.

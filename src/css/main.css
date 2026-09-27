@@ -209,6 +209,11 @@ p.lead { font-size: 1.15rem; font-weight: 300; color: var(--rg-slate); }
   gap: 1.5rem;
 }
 
+/* Four across on desktop for sets of 4 or 8, so no card is left orphaned. */
+.card-grid--quad {
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+}
+
 .testimonial-card__quote {
   font-size: 1.02rem;
   font-style: italic;

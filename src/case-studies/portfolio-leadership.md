@@ -1,34 +1,35 @@
 ---
 layout: layouts/case-study.njk
-title: "Directing a $45M Defense Technology Portfolio"
-description: "Six government contract portfolios, one AI research program at the Army Cybersecurity Institute, and two proposals that put $51B in potential contract value on the table."
-order: 2
+title: "Owning a $45M Portfolio Across 14 Concurrent Programs"
+description: "Up to 14 concurrent programs, an org of 12 across five teams, a 0-to-1 procurement platform, and applied LLM research on adversarial AI risk at the Army Cyber Institute."
+order: 3
+setting: 5
 featured: true
-themes: ["Product Leadership", "Federal & Defense"]
+themes: ["Product Leadership", "AI Governance"]
 role: "Senior Technical Product Manager, Defense Technology Contractor"
 scale: "8(a) & SDVOSB defense technology contractor"
 period: "January 2018 to October 2024"
 ogSlug: "cs-defense-portfolio"
 stats:
   - value: "$45M"
-    label: "Contract portfolio directed"
-  - value: "$51B"
-    label: "Potential value across two proposals authored"
-  - value: "4 to 12"
-    label: "Team scaled, doubling contract value"
+    label: "Portfolio owned"
+  - value: "14"
+    label: "Concurrent programs, at peak"
+  - value: "2 to 6"
+    label: "Army Cyber Institute research team scaled"
 ---
 
 ## Situation
 
-An 8(a) and SDVOSB defense technology contractor needed one person to own product strategy across six government contract portfolios at once: mobile, SaaS, and cybersecurity solutions, all aligned to Department of Defense requirements. The portfolios didn't share a roadmap, a prioritization method, or in most cases a team. An active DoD Secret clearance let that person sit directly in the classified and controlled-unclassified conversations the work required.
+An 8(a) and SDVOSB defense technology contractor needed one person to own product strategy across a portfolio that reached 14 concurrent programs: enterprise products, the AI/ML platforms behind them, and the delivery organization that shipped them. The programs didn't share a roadmap, a prioritization method, or in most cases a team.
 
 ## What I Built
 
-- **Directed end-to-end product strategy across six government contract portfolios worth $45M**, integrating mobile, SaaS, and cybersecurity solutions to Department of Defense requirements.
-- **Authored two multimillion-dollar proposals** that put $51B in potential contract value on the table, through business case development, KPI definition, and stakeholder alignment.
-- **Led AI/LLM-based research operations at the Army Cybersecurity Institute**, overseeing 12 projects applying advanced prompting and context engineering to cybersecurity and health optimization problems, years before that was a common enterprise skill set.
-- **Implemented experimentation frameworks**, A/B testing and analytics instrumentation, to validate features, optimize adoption, and improve compliance reporting across the portfolio.
-- **Scaled cross-functional teams from 4 to 12 employees across five groups**, doubling contract value and tripling headcount while holding delivery quality steady.
+- **Owned a $45M portfolio spanning up to 14 concurrent programs**, leading a cross-functional org of 12 across five teams and setting the delivery standards they operated on.
+- **Led applied LLM research at the Army Cyber Institute at West Point**, scaling the team from 2 to 6 and authoring two published assessments on adversarial AI risk in critical infrastructure.
+- **Shipped a 0-to-1 enterprise procurement platform for the U.S. Department of Energy**, replacing a decades-old email-and-attachment process with a secure workflow from RFP intake through structured evaluation to award. Billions of dollars in contract value flowed through it, and I led the replatforming onto a second stack.
+- **Led discovery research, interface design, and release validation for a commercially launched AI/ML platform** delivering search, technology monitoring, and spend analytics across 400M+ documents.
+- **Led the company's multi-year security compliance program** (CMMC, the defense-sector analogue to SOC 2 and ISO 27001), from evaluation through implementation, and authored the full policy set.
 
 <figure class="diagram">
 <svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram showing the team growing from four people in one group in 2018 to twelve people across five groups in 2024, while contract value doubled.">
@@ -66,12 +67,12 @@ An 8(a) and SDVOSB defense technology contractor needed one person to own produc
 
 ## The Hardest Problem
 
-Proposal work in the federal space lives or dies on whether the business case survives a procurement review board that's seen a thousand proposals promising the same things. Getting to $51B in potential value across two proposals meant KPI frameworks and stakeholder alignment specific enough to survive that scrutiny. Generic value statements don't survive it; every competitor submits those.
+Fourteen programs that did not share a roadmap, a prioritization method, or in most cases a team. One set of delivery standards had to hold across all of them while the same org took on applied LLM research at the Army Cyber Institute.
 
 ## Outcome
 
-Six contract portfolios ran under one coherent product strategy, not six disconnected ones. The team grew from 4 to 12 while contract value doubled. Proof the scaling was funded by delivery, not headcount padding. The Army Cybersecurity Institute research program applied frontier LLM techniques to defense-relevant problems years before that became standard industry practice.
+Up to 14 concurrent programs ran under one set of delivery standards. The team grew from 4 to 12 while contract value doubled. The Army Cyber Institute work produced two published assessments on adversarial AI risk in critical infrastructure, and the procurement platform carried billions of dollars in contract value.
 
 ## Skills Demonstrated
 
-Multi-portfolio product strategy, federal proposal development, AI/LLM research leadership, team scaling under delivery pressure, defense-sector compliance and reporting.
+Portfolio product strategy, applied LLM research, adversarial AI risk assessment, 0-to-1 platform delivery, security compliance, team scaling under delivery pressure.

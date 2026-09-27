@@ -129,13 +129,13 @@ console.log("Generating OG cards...");
 // Static pages
 renderCard("home", {
   eyebrow: "",
-  title: "AI Systems That Ship, and Hold Up Under Scrutiny",
-  description: "Brady Redfearn: AI Product and Technical Leadership, 20+ years.",
+  title: "Twenty years on one question.",
+  description: "Brady Redfearn: how people come to trust systems that decide for them.",
 });
 renderCard("work", {
   eyebrow: "Case Study Library",
-  title: "20+ years of technical leadership, in evidence.",
-  description: "Case studies in AI strategy, LLM agents, governance, and org transformation.",
+  title: "The evidence behind the question.",
+  description: "Five case studies from the eight settings, and the commercial record behind them.",
 });
 renderCard("insights", {
   eyebrow: "Insights",
@@ -144,8 +144,8 @@ renderCard("insights", {
 });
 renderCard("about", {
   eyebrow: "About",
-  title: "Chaos is my fuel. Ambiguity is my playground.",
-  description: "20+ years turning ambiguity into shipped systems.",
+  title: "Take the system apart. Improve one piece at a time.",
+  description: "AI product leader. PhD in Systems Engineering.",
 });
 renderCard("contact", {
   eyebrow: "Contact",
@@ -165,7 +165,7 @@ renderCard("reports", {
 renderCard("publications", {
   eyebrow: "Publications",
   title: "Peer-reviewed work, with the receipts.",
-  description: "A dissertation, an MS thesis, and five conference papers on mixed reality and IT education.",
+  description: "A dissertation, an MS thesis, and five conference papers. Early human-AI interaction work.",
 });
 renderCard("title-15-calculations", {
   eyebrow: "Appendix",

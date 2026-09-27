@@ -2,7 +2,7 @@
 layout: layouts/case-study.njk
 title: "Proving UX Was a Revenue Lever, Not a Cost Center, at Blackboard"
 description: "84 mobile apps, a 64% jump in year-over-year sales, and a satisfaction score that climbed 93%, the numbers that made the case for design before it was a given."
-order: 5
+order: 7
 featured: false
 themes: ["Growth & PLG", "UX Research"]
 role: "Product Manager, Blackboard"
