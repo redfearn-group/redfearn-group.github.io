@@ -14,6 +14,8 @@ export default function (eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/.nojekyll");
   eleventyConfig.addPassthroughCopy("src/site.webmanifest");
   eleventyConfig.addPassthroughCopy({ "src/og-cards": "og-cards" });
+  // Google Search Console ownership check. Removing it unverifies the site.
+  eleventyConfig.addPassthroughCopy("src/googledf7d43a2b326367a.html");
 
   const md = markdownIt({
     html: true,
