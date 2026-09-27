@@ -1,6 +1,7 @@
 import pluginRss from "@11ty/eleventy-plugin-rss";
 import markdownIt from "markdown-it";
-import { existsSync } from "node:fs";
+import { existsSync, readFileSync } from "node:fs";
+import { createHash } from "node:crypto";
 import { join } from "node:path";
 
 export default function (eleventyConfig) {
@@ -81,6 +82,15 @@ export default function (eleventyConfig) {
   eleventyConfig.addFilter("fileExists", (p) => {
     if (typeof p !== "string" || p === "") return false;
     return existsSync(join("src", p.replace(/^\//, "")));
+  });
+
+  // LinkedIn and other link unfurlers cache a preview image by its URL, so a
+  // regenerated card at the same path keeps showing the old picture. A short
+  // content hash in the query string changes only when the image does.
+  eleventyConfig.addFilter("ogVersion", (slug) => {
+    const p = join("src", "og-cards", `${slug}.png`);
+    if (!existsSync(p)) return "";
+    return "?v=" + createHash("sha256").update(readFileSync(p)).digest("hex").slice(0, 8);
   });
 
   eleventyConfig.addFilter("uniqueThemes", (items) => {
