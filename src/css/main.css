@@ -214,6 +214,11 @@ p.lead { font-size: 1.15rem; font-weight: 300; color: var(--rg-slate); }
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
 }
 
+/* Two across for long-form cards such as testimonials. */
+.card-grid--pair {
+  grid-template-columns: repeat(auto-fit, minmax(min(420px, 100%), 1fr));
+}
+
 .testimonial-card__quote {
   font-size: 1.02rem;
   font-style: italic;
