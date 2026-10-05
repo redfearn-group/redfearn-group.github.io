@@ -5,6 +5,8 @@ date: 2026-10-05
 tags: ["AI", "AI History"]
 ogSlug: "post-ai-has-a-family-tree"
 ---
+![Timeline of four branches of AI joining at ChatGPT in 2022. Plumbing: MapReduce 2004, Hadoop 2006, Watson 2011. Voice: Siri 2011, Echo 2014. Learning: ImageNet 2012. Meaning: word2vec 2013, Transformer 2017, RAG 2020.](/assets/insights/ai-has-a-family-tree-hero.png)
+
 OpenAI released ChatGPT on 30 NOV 2022 as a free research preview. Two months later, UBS analysts estimated it had reached 100 million monthly active users, [Reuters reported](https://www.reuters.com/technology/chatgpt-sets-record-fastest-growing-user-base-analyst-note-2023-02-01/). To most people, AI looked like it had arrived overnight, but it didn't.
 
 ChatGPT is the youngest member of a family that had been growing for nearly two decades. I've worked on several of its branches, starting at IBM in 2012. This is the first of seven articles that walk the family tree one branch at a time, and what each branch taught me.
@@ -38,3 +40,5 @@ ChatGPT made its capabilities visible to everyone everywhere all at once, which 
 ## Next
 
 Next up: what IBM's big data years taught me about why AI projects stall at setup, long before anyone can even use them.
+
+*Yes, I wrote this all by hand, although I did use Claude to make the graphic for me.*
