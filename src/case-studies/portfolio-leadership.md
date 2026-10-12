@@ -1,7 +1,7 @@
 ---
 layout: layouts/case-study.njk
-title: "Owning a $45M Portfolio Across 14 Concurrent Programs"
-description: "Up to 14 concurrent programs, an org of 12 across five teams, a 0-to-1 procurement platform, and applied LLM research on adversarial AI risk at the Army Cyber Institute."
+title: "Managing Six Contracts Worth $45M"
+description: "Six contracts worth $45M, individual contributor work on 14 programs, an org of 12 across five teams, a 0-to-1 procurement platform, and applied LLM research on adversarial AI risk at the Army Cyber Institute."
 order: 3
 setting: 5
 featured: true
@@ -12,22 +12,22 @@ period: "January 2018 to October 2024"
 ogSlug: "cs-defense-portfolio"
 stats:
   - value: "$45M"
-    label: "Portfolio owned"
+    label: "Across six contracts managed"
   - value: "14"
-    label: "Concurrent programs, at peak"
+    label: "Programs worked on in total"
   - value: "2 to 6"
     label: "Army Cyber Institute research team scaled"
 ---
 
 ## Situation
 
-An 8(a) and SDVOSB defense technology contractor needed one person to own product strategy across a portfolio that reached 14 concurrent programs: enterprise products, the AI/ML platforms behind them, and the delivery organization that shipped them. The programs didn't share a roadmap, a prioritization method, or in most cases a team.
+An 8(a) and SDVOSB defense technology contractor ran 14 programs across enterprise products, the AI/ML platforms behind them, and the delivery organization that shipped them. I was an individual contributor on all 14 and managed six of the contracts, worth $45M. The contracts didn't share a roadmap, a prioritization method, or in most cases a team.
 
 ## What I Built
 
-- **Owned a $45M portfolio spanning up to 14 concurrent programs**, leading a cross-functional org of 12 across five teams and setting the delivery standards they operated on.
+- **Managed six contracts worth $45M** and was an individual contributor on 14 programs in total, leading a cross-functional org of 12 across five teams and setting the delivery standards they operated on.
 - **Led applied LLM research at the Army Cyber Institute at West Point**, scaling the team from 2 to 6 and authoring two published assessments on adversarial AI risk in critical infrastructure.
-- **Shipped a 0-to-1 enterprise procurement platform for the U.S. Department of Energy**, replacing a decades-old email-and-attachment process with a secure workflow from RFP intake through structured evaluation to award. Billions of dollars in contract value flowed through it, and I led the replatforming onto a second stack.
+- **Shipped a 0-to-1 enterprise procurement platform for the U.S. Department of Energy**, replacing a decades-old email-and-attachment process with a secure workflow from RFP intake through structured evaluation to award. About $5B a year flows through it, it is still in production, and I led the replatforming onto a second stack.
 - **Led discovery research, interface design, and release validation for a commercially launched AI/ML platform** delivering search, technology monitoring, and spend analytics across 400M+ documents.
 - **Led the company's multi-year security compliance program** (CMMC, the defense-sector analogue to SOC 2 and ISO 27001), from evaluation through implementation, and authored the full policy set.
 
@@ -67,11 +67,11 @@ An 8(a) and SDVOSB defense technology contractor needed one person to own produc
 
 ## The Hardest Problem
 
-Fourteen programs that did not share a roadmap, a prioritization method, or in most cases a team. One set of delivery standards had to hold across all of them while the same org took on applied LLM research at the Army Cyber Institute.
+Six contracts that did not share a roadmap, a prioritization method, or in most cases a team. One set of delivery standards had to hold across all of them while the same org took on applied LLM research at the Army Cyber Institute.
 
 ## Outcome
 
-Up to 14 concurrent programs ran under one set of delivery standards. The team grew from 4 to 12 while contract value doubled. The Army Cyber Institute work produced two published assessments on adversarial AI risk in critical infrastructure, and the procurement platform carried billions of dollars in contract value.
+Six contracts worth $45M ran under one set of delivery standards. The team grew from 4 to 12 while contract value doubled. The Army Cyber Institute work produced two published assessments on adversarial AI risk in critical infrastructure, and the procurement platform now processes about $5B a year.
 
 ## Skills Demonstrated
 

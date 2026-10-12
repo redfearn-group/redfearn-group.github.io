@@ -1,7 +1,7 @@
 ---
 layout: layouts/case-study.njk
 title: "Proving UX Was a Revenue Lever, Not a Cost Center, at Blackboard"
-description: "84 mobile apps, a 64% jump in year-over-year sales, and a satisfaction score that climbed 93%, the numbers that made the case for design before it was a given."
+description: "84 mobile apps, sales up 64% year over year, and a satisfaction score that climbed 93%, the numbers that made the case for design before it was a given."
 order: 7
 featured: false
 themes: ["Growth & PLG", "UX Research"]
@@ -11,7 +11,7 @@ period: "August 2009 to August 2013"
 ogSlug: "cs-blackboard-ux-revenue"
 stats:
   - value: "64%"
-    label: "YoY sales growth from improved UX"
+    label: "YoY sales growth that UX work contributed to"
   - value: "84"
     label: "Mobile applications deployed"
   - value: "93%"
@@ -27,7 +27,7 @@ stats:
 - **Deployed 84 mobile applications** across ParentLink, the school-to-parent communication platform, increasing usage 14% year-over-year and contributing directly to the company's eventual acquisition.
 - **An administrator dashboard and approvals workflow**, designed and launched to remove friction from a process that had been quietly driving customers away, boosting repeat customer rate by 30%.
 - **An A/B testing and feedback loop program**, the first systematic one the product had, raising customer satisfaction 93% by replacing guesswork with evidence.
-- **UX and engagement improvements** that drove a 64% year-over-year increase in product sales, the number that ended the debate about whether design investment paid for itself.
+- **UX and engagement improvements** that contributed to a 64% year-over-year increase in product sales, the number that ended the debate about whether design investment paid for itself.
 - **Analysis and design work on ITSM and ITIL implementation for small-to-medium-sized businesses**, applying IT service management practice to a market segment that rarely got it.
 
 <figure class="diagram">
