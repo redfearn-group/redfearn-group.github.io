@@ -1,7 +1,7 @@
 ---
 layout: layouts/case-study.njk
-title: "Scaling Enterprise SaaS Adoption 75x at IBM"
-description: "Three product rollouts on IBM's real-time stream analytics and big data platforms, and growth loops that turned flat adoption into 35,000 incremental downloads and a 75x jump."
+title: "Cutting Enterprise Setup From Days to Minutes at IBM"
+description: "IBM's big data platforms took days of on-site setup. More than 30 downloadable virtual appliances cut that to minutes, and downloads rose 75x."
 order: 6
 featured: false
 themes: ["Growth & PLG", "Product Leadership"]
@@ -11,54 +11,43 @@ period: "May 2012 to December 2014"
 ogSlug: "cs-ibm-saas-adoption"
 stats:
   - value: "75x"
-    label: "Adoption scaled through growth loops"
-  - value: "35,000"
-    label: "Incremental downloads driven"
+    label: "Downloads after the VM launch"
+  - value: "13,125"
+    label: "Customer workdays saved on BigInsights (est.)"
   - value: "24"
-    label: "New contracts secured"
+    label: "New contracts in the next 12 months"
 ---
 
 ## Situation
 
-An enterprise SaaS platform at IBM had a usability problem dressed up as a marketing problem. Adoption was flat, and the instinct in the room was to spend more on awareness. The actual blocker was inside the product.
+When I joined IBM in 2012, InfoSphere Streams and BigInsights could handle huge volumes of data in real time, but getting either one running took several days with IBM engineers on site. Everything at IBM still followed the older mainframe paradigm, so every new customer started with a slow, expensive setup before anyone ran a single query. That did not scale.
 
-I was hired as a User Experience Engineer and ended up running product. Both platforms were part of the big data stack that was folded into IBM's Watson work.
+I was hired as a User Experience Engineer and soon moved into product management. Both platforms were part of the big data stack folded into IBM's Watson work.
 
 ## What I Built
 
 - **Ran three product rollouts on InfoSphere Streams and BigInsights**, IBM's real-time stream analytics and large-scale data platforms, owning each from scope through launch and adoption.
-- **Usability improvements and growth experiments** that increased SaaS adoption by 35,000 downloads, the equivalent of saving 13,125 days of manual work across the customer base.
-- **Data-driven growth loops**, built jointly with engineering and analytics, that scaled adoption 75x by compounding small conversion improvements. No big redesign required.
-- **VM initiatives for enterprise platforms** that secured 24 new contracts by removing deployment friction that had been quietly costing sales cycles.
-- **Workflow automation and modular services** that improved enterprise efficiency beyond the immediate adoption metrics.
+- **Built more than 30 virtual appliances (VMs)** across the organization: the product, setup scripts, instructions and a default dataset, packaged so anyone could download it and run it on a laptop in minutes.
+- **Wrote the technical documentation** that let anyone who downloaded a VM try the product on their own, before an IBM solutions consultant ever talked to them.
 
 <figure class="diagram">
-<svg viewBox="0 0 900 420" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Growth loop diagram showing four steps in a cycle: fix usability, compound conversion, drive 35,000 downloads, and secure 24 new contracts, feeding back into fixing usability, with 75x adoption scaled shown at the center.">
+<svg viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Before and after. Before: several days of setup with IBM engineers on site. After: minutes, downloaded and run on a laptop. Results: downloads up 75x, an estimated 16,500 customer workdays saved, and 24 new contracts in the next 12 months.">
 <g font-family="IBM Plex Sans, sans-serif">
-  <circle cx="450" cy="210" r="150" fill="none" stroke="#0A1128" stroke-opacity="0.12" stroke-width="1.5"/>
-  <circle cx="450" cy="210" r="95" fill="#0A1128"/>
-  <text x="450" y="200" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="42" font-weight="700" fill="#FFCC00">75x</text>
-  <text x="450" y="226" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="2" fill="#F7F4EF">ADOPTION SCALED</text>
-  <circle cx="450" cy="60" r="30" fill="#FFFFFF" stroke="#C2592A" stroke-width="1.5"/>
-  <text x="450" y="55" text-anchor="middle" font-size="12" font-weight="600" fill="#0A1128">Fix</text>
-  <text x="450" y="70" text-anchor="middle" font-size="12" font-weight="600" fill="#0A1128">usability</text>
-  <text x="450" y="20" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#676E7C">STEP 1</text>
-  <circle cx="640" cy="130" r="30" fill="#FFFFFF" stroke="#C2592A" stroke-width="1.5"/>
-  <text x="640" y="125" text-anchor="middle" font-size="12" font-weight="600" fill="#0A1128">Compound</text>
-  <text x="640" y="140" text-anchor="middle" font-size="12" font-weight="600" fill="#0A1128">conversion</text>
-  <text x="710" y="100" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#676E7C">STEP 2</text>
-  <circle cx="640" cy="290" r="30" fill="#FFFFFF" stroke="#C2592A" stroke-width="1.5"/>
-  <text x="640" y="285" text-anchor="middle" font-size="12" font-weight="600" fill="#0A1128">35,000</text>
-  <text x="640" y="300" text-anchor="middle" font-size="12" font-weight="600" fill="#0A1128">downloads</text>
-  <text x="710" y="330" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#676E7C">STEP 3</text>
-  <circle cx="260" cy="290" r="30" fill="#FFFFFF" stroke="#C2592A" stroke-width="1.5"/>
-  <text x="260" y="285" text-anchor="middle" font-size="12" font-weight="600" fill="#0A1128">24 new</text>
-  <text x="260" y="300" text-anchor="middle" font-size="12" font-weight="600" fill="#0A1128">contracts</text>
-  <text x="190" y="330" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="10" fill="#676E7C">STEP 4</text>
-  <path d="M 472 68 A 200 200 0 0 1 625 105" fill="none" stroke="#C2592A" stroke-width="1.5" marker-end="url(#arrowIbm)"/>
-  <path d="M 655 158 A 200 200 0 0 1 655 262" fill="none" stroke="#C2592A" stroke-width="1.5" marker-end="url(#arrowIbm)"/>
-  <path d="M 613 305 A 200 200 0 0 1 287 305" fill="none" stroke="#C2592A" stroke-width="1.5" marker-end="url(#arrowIbm)"/>
-  <path d="M 245 262 A 200 200 0 0 1 428 68" fill="none" stroke="#C2592A" stroke-width="1.5" marker-end="url(#arrowIbm)"/>
+  <rect x="40" y="30" width="330" height="130" rx="8" fill="#FFFFFF" stroke="#0A1128" stroke-opacity="0.2" stroke-width="1.5"/>
+  <text x="205" y="62" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="2" fill="#676E7C">BEFORE</text>
+  <text x="205" y="102" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="30" font-weight="700" fill="#0A1128">Several days</text>
+  <text x="205" y="134" text-anchor="middle" font-size="14" fill="#676E7C">IBM engineers on site</text>
+  <path d="M 390 95 L 500 95" stroke="#C2592A" stroke-width="2" marker-end="url(#arrowIbm)"/>
+  <rect x="530" y="30" width="330" height="130" rx="8" fill="#0A1128"/>
+  <text x="695" y="62" text-anchor="middle" font-family="JetBrains Mono, monospace" font-size="11" letter-spacing="2" fill="#D1D5DB">AFTER</text>
+  <text x="695" y="102" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="30" font-weight="700" fill="#FFCC00">Minutes</text>
+  <text x="695" y="134" text-anchor="middle" font-size="14" fill="#F7F4EF">Download a VM, run it on a laptop</text>
+  <text x="160" y="225" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="32" font-weight="700" fill="#0A1128">75x</text>
+  <text x="160" y="252" text-anchor="middle" font-size="13" fill="#676E7C">downloads after launch</text>
+  <text x="450" y="225" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="32" font-weight="700" fill="#0A1128">16,500</text>
+  <text x="450" y="252" text-anchor="middle" font-size="13" fill="#676E7C">customer workdays saved (est.)</text>
+  <text x="740" y="225" text-anchor="middle" font-family="Space Grotesk, sans-serif" font-size="32" font-weight="700" fill="#0A1128">24</text>
+  <text x="740" y="252" text-anchor="middle" font-size="13" fill="#676E7C">new contracts in 12 months</text>
   <defs>
     <marker id="arrowIbm" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto">
       <path d="M0,0 L8,4 L0,8 Z" fill="#C2592A"/>
@@ -66,17 +55,19 @@ I was hired as a User Experience Engineer and ended up running product. Both pla
   </defs>
 </g>
 </svg>
-<figcaption class="small" style="text-align: center; color: var(--rg-ash); margin-top: 0.75rem;">A compounding growth loop, not a single redesign, turned flat adoption into a 75x increase.</figcaption>
+<figcaption class="small" style="text-align: center; color: var(--rg-ash); margin-top: 0.75rem;">Setup time before and after the VMs, and the results that followed.</figcaption>
 </figure>
 
 ## The Hardest Problem
 
-Convincing a large, established enterprise org the fix was inside the product. Marketing spend is the easier line item to approve, and that's exactly why nobody wanted to hear it wasn't the answer. The growth loop data made the case on its own: exactly where in the product experience users were dropping off, and what closing that gap was worth.
+Asking why setup worked the way it did. There was no real reason; it was institutional tradition. I came in without the legacy mainframe perspective, which made the question easier to ask, and the first working VM showed there was another way.
 
 ## Outcome
 
-Adoption scaled 75x. The 35,000 additional downloads translated to a measurable reduction in manual work across the customer base, and the VM initiative work directly secured 24 new enterprise contracts that had been stalled on deployment friction.
+- **Downloads of both products went up 75 times after launch.** The BigInsights VM was downloaded more than 35,000 times and the Streams VM more than 9,000 times.
+- **An estimated 16,500 workdays of customer time saved**: 13,125 on BigInsights and 3,375 on Streams, at 3 hours saved per download. That is a cautious figure against the several days of on-site setup each VM replaced.
+- **24 new contracts in the next 12 months**, signed after sales started demonstrating the product on the VMs.
 
 ## Skills Demonstrated
 
-Product-led growth strategy, enterprise SaaS adoption, cross-functional growth loop design, usability-driven product improvement, enterprise sales enablement.
+Enterprise onboarding and setup, product-led adoption, virtual appliance packaging, sales enablement, technical documentation.
