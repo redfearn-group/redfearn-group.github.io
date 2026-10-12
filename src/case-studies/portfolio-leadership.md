@@ -6,8 +6,8 @@ order: 3
 setting: 5
 featured: true
 themes: ["Product Leadership", "AI Governance"]
-role: "Senior Technical Product Manager, Defense Technology Contractor"
-scale: "8(a) & SDVOSB defense technology contractor"
+role: "Senior Technical Product Manager, Research and Technology Firm"
+scale: "Research and technology firm"
 period: "January 2018 to October 2024"
 ogSlug: "cs-defense-portfolio"
 stats:
@@ -21,7 +21,7 @@ stats:
 
 ## Situation
 
-An 8(a) and SDVOSB defense technology contractor ran 14 programs across enterprise products, the AI/ML platforms behind them, and the delivery organization that shipped them. I was an individual contributor on all 14 and managed six of the contracts, worth $45M. The contracts didn't share a roadmap, a prioritization method, or in most cases a team.
+A research and technology firm ran 14 programs across enterprise products, the AI/ML platforms behind them, and the delivery organization that shipped them. I was an individual contributor on all 14 and managed six of the contracts, worth $45M. The contracts didn't share a roadmap, a prioritization method, or in most cases a team.
 
 ## What I Built
 
@@ -29,7 +29,7 @@ An 8(a) and SDVOSB defense technology contractor ran 14 programs across enterpri
 - **Led applied LLM research at the Army Cyber Institute at West Point**, scaling the team from 2 to 6 and authoring two published assessments on adversarial AI risk in critical infrastructure.
 - **Shipped a 0-to-1 enterprise procurement platform for the U.S. Department of Energy**, replacing a decades-old email-and-attachment process with a secure workflow from RFP intake through structured evaluation to award. About $5B a year flows through it, it is still in production, and I led the replatforming onto a second stack.
 - **Led discovery research, interface design, and release validation for a commercially launched AI/ML platform** delivering search, technology monitoring, and spend analytics across 400M+ documents.
-- **Led the company's multi-year security compliance program** (CMMC, the defense-sector analogue to SOC 2 and ISO 27001), from evaluation through implementation, and authored the full policy set.
+- **Led the company's multi-year security compliance program** (CMMC, a security compliance framework comparable to SOC 2 and ISO 27001), from evaluation through implementation, and authored the full policy set.
 
 <figure class="diagram">
 <svg viewBox="0 0 900 260" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Diagram showing the team growing from four people in one group in 2018 to twelve people across five groups in 2024, while contract value doubled.">
