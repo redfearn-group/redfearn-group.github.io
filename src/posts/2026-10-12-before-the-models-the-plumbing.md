@@ -41,4 +41,4 @@ If I were starting an AI project today, I'd spend the first month on setup: the 
 
 Next up: voice, and what the Echo beta taught me about what happens when a computer starts to sound like a person.
 
-*Yes, I wrote this all by hand, although I did use Claude to make the graphic for me.*
+*Yes, I wrote this myself, although I did use Claude to make the graphic for me.*
