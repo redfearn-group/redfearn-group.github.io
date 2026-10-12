@@ -12,7 +12,7 @@ period: "April 2014 to December 2017"
 ogSlug: "cs-talos-human-ai-interaction"
 stats:
   - value: "$750K"
-    label: "Competitive research funding across two federal R&D programs"
+    label: "Competitive research funding across two R&D programs"
   - value: "$100K"
     label: "Saved launching two prototypes under budget"
   - value: "2"
@@ -27,7 +27,7 @@ TALOS, the Tactical Assault Light Operator Suit, was U.S. Special Operations Com
 
 - **Defined the human-AI interaction model for the system**: what it decides, what it surfaces to an operator under load, when it defers to the human, and how it fails safely.
 - **Led product design for the head-worn mixed reality interfaces**, working on site with operators under hard performance and safety constraints.
-- **Secured $750K in competitive research funding** by designing the business cases and product strategy behind two federally awarded R&D programs.
+- **Secured $750K in competitive research funding** by designing the business cases and product strategy behind two competitively awarded R&D programs.
 - **Launched two prototypes on time and under budget**, saving $100K while meeting compliance and client standards.
 - **Ran market and competitive analysis** that set roadmap priorities.
 
@@ -60,7 +60,7 @@ Designing the interaction before the technology could run it. There was no model
 
 ## Outcome
 
-$750K in competitive research funding across two federally awarded R&D programs, two prototypes shipped on time and $100K under budget, and an interaction model that preceded the models capable of running it. The same four questions sit under every AI deployment I have worked on since.
+$750K in competitive research funding across two competitively awarded R&D programs, two prototypes shipped on time and $100K under budget, and an interaction model that preceded the models capable of running it. The same four questions sit under every AI deployment I have worked on since.
 
 ## Skills Demonstrated
 
