@@ -30,7 +30,7 @@ There was no lab, and no course built around intelligent interfaces. The idea: s
 - **Founded and scaled an innovation lab from zero**, raising $325K and mentoring 200+ students through AR/VR and mobile prototypes that shipped, not just demoed.
 - **Applied product-led growth experimentation to student-facing platforms**, treating the lab's own tools as products worth measuring and iterating on.
 - **Bridged academic research with commercial productization**, securing $22K for the program's first industry-sponsored capstone project, the deal that proved outside companies would trust student teams with real problems.
-- **Championed composable service design**, building reusable components multiple student projects could reuse directly. No team had to start from zero.
+- **Built reusable components** that carried across student projects. No team had to start from zero.
 
 <figure class="diagram">
 <svg viewBox="0 0 900 240" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Milestone path from 2018 to 2020 showing zero budget at the start, the first sponsored capstone worth 22,000 dollars as proof it worked, and 325,000 dollars total raised by 2020, alongside 200 plus students mentored.">
@@ -60,7 +60,7 @@ Getting the first outside company to trust a brand-new academic lab with a real 
 
 ## Outcome
 
-$325K raised to build a program that didn't exist before. Over 200 students mentored through applied research and real product delivery, many moving directly into SaaS, EdTech, and cybersecurity careers. The composable service design approach outlived any single cohort. It became infrastructure the next group of students built on, not something they had to reinvent.
+$325K raised to build a program that didn't exist before. Over 200 students mentored through applied research and real product delivery. The reusable components outlived any single cohort. It became infrastructure the next group of students built on, not something they had to reinvent.
 
 ## Skills Demonstrated
 

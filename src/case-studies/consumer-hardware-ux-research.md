@@ -50,7 +50,7 @@ Cross-device usability research is hard enough when hardware, software, and plat
 
 ## Outcome
 
-Both engagements delivered design recommendations that shaped real product iterations, on platforms that went on to define their categories. The research discipline built here was rigorous, fast, and resistant to schedule pressure. Echo was an early case of the question the rest of this library keeps returning to: a system acting on a person's behalf, and where the interaction breaks down.
+My Echo recommendations informed product iterations. The Sonos work focused on how hardware and software fit together. The research discipline built here was rigorous, fast, and resistant to schedule pressure. Echo was an early case of the question the rest of this library keeps returning to: a system acting on a person's behalf, and where the interaction breaks down.
 
 ## Skills Demonstrated
 

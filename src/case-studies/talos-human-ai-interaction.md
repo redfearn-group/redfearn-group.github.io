@@ -21,7 +21,7 @@ stats:
 
 ## Situation
 
-TALOS, the Tactical Assault Light Operator Suit, was U.S. Special Operations Command's powered exoskeleton program. A system worn by an operator makes decisions on that person's behalf, in the field, where a wrong one is dangerous. The open questions were what it should decide, what it should show the operator, and when it should hand control back. The models that could run a system like that did not exist yet. This ran concurrently with my PhD, and the dissertation research was conducted on the program.
+TALOS, the Tactical Assault Light Operator Suit, was U.S. Special Operations Command's powered exoskeleton program. A system worn by an operator makes decisions on that person's behalf, in the field, where a wrong one is dangerous. The open questions were what it should decide, what it should show the operator, and when it should hand control back. The models that could run a system like that did not exist yet. This ran concurrently with my PhD.
 
 ## What I Built
 
