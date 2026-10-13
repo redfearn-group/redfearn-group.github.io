@@ -26,8 +26,8 @@ A large public institution had one AI initiative and wanted four: healthcare ePo
 ## What I Built
 
 - **Scaled from 1 to 4 concurrent AI programs**, each at a distinct delivery phase, without collapsing them into a single undifferentiated backlog or losing any program's specific stakeholder relationships.
-- **Ran a 20+ vendor EdTech market analysis**, benchmarked against institutional systems-of-record data, and delivered a weighted recommendation to senior stakeholders that drove platform selection and a six-capability pedagogy roadmap.
-- **Led SaaS vendor engagement from contract through pilot launch**, coordinating LTI 1.3 integration across academic and LMS partners and delivering five artifacts to senior leadership within 30 days of kickoff.
+- **Ran a 20+ vendor evaluation**, benchmarked against systems-of-record data, and delivered a weighted recommendation to senior leadership that set platform selection and a six-capability roadmap.
+- **Led SaaS vendor engagement from contract through pilot launch**, coordinating LTI 1.3 integration across internal and third-party platform partners and delivering five artifacts to senior leadership within 30 days of kickoff.
 - **Prototyped in working software rather than specifying and handing off**, building daily with Claude Code and agentic coding tools, so architecture and UX decisions were tested against something running before they reached a document.
 - **Built a GenAI-powered workflow automation system for my own team**, seven purpose-built AI skills orchestrating retrospectives, documentation, research synthesis, and tracking across four active workstreams.
 - **Architected the full product spec for an institutional AI platform serving more than 200,000 learners**, across eight-plus domains: RBAC, LTI 1.3/SSO, data hierarchy, conversation design, and UX standards, from prototype through architecture-lock.
@@ -87,7 +87,7 @@ Getting four programs, four separate stakeholder groups, to agree to build on on
 
 ## Outcome
 
-The platform spec reached architecture-lock across all eight-plus domains. One vendor selection and pedagogy roadmap, and all four programs build against it. The team's own workflow automation system runs in parallel, applying the same AI-native practices internally that the platform is meant to enable institution-wide.
+The platform spec reached architecture-lock across all eight-plus domains. One vendor selection and roadmap, and all four programs build against it. The team's own workflow automation system runs in parallel, applying the same AI-native practices internally that the platform is meant to enable institution-wide.
 
 ## Skills Demonstrated
 

@@ -20,7 +20,7 @@ stats:
 
 ## Situation
 
-2009. Early in my career, at an EdTech company that treated design as decoration. I had to prove it drove revenue, and the only way to do that was numbers.
+2009, early in my career. Design work had to earn its budget, and the only argument that worked was measured results.
 
 ## What I Built
 
@@ -28,7 +28,6 @@ stats:
 - **An administrator dashboard and approvals workflow**, designed and launched to remove friction from a process that had been quietly driving customers away, boosting repeat customer rate by 30%.
 - **An A/B testing and feedback loop program**, the first systematic one the product had, raising customer satisfaction 93% by replacing guesswork with evidence.
 - **UX and engagement improvements** that contributed to a 64% year-over-year increase in product sales, the number that ended the debate about whether design investment paid for itself.
-- **Analysis and design work on ITSM and ITIL implementation for small-to-medium-sized businesses**, applying IT service management practice to a market segment that rarely got it.
 
 <figure class="diagram">
 <svg viewBox="0 0 900 300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Before and after diagram showing 2009, when design was treated as a finishing touch with no metrics tracked against sales, transitioning to 2013, when design was proven as a revenue lever with 84 apps shipped and the company acquired, driven by 64 percent year over year sales growth, 93 percent higher satisfaction, and a 30 percent higher repeat customer rate.">
@@ -72,4 +71,4 @@ Sales grew 64% year over year. Customer satisfaction climbed 93%. Repeat custome
 
 ## Skills Demonstrated
 
-UX strategy tied to revenue outcomes, product management, A/B testing and experimentation, enterprise EdTech, ITSM and ITIL implementation, design advocacy backed by data.
+UX strategy tied to revenue outcomes, product management, A/B testing and experimentation, enterprise EdTech, design advocacy backed by data.
