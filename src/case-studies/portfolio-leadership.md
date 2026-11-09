@@ -26,7 +26,7 @@ A research and technology firm ran 14 programs across enterprise products, the A
 ## What I Built
 
 - **Managed six contracts worth $45M** and was an individual contributor on 14 programs in total, leading a cross-functional org of 12 across five teams and setting the delivery standards they operated on.
-- **Led applied LLM research at the Army Cyber Institute at West Point**, scaling the team from 2 to 6 and authoring two published assessments on adversarial AI risk in critical infrastructure.
+- **Led applied LLM research at the Army Cyber Institute at West Point** as program manager, scaling the team from 2 to 6 and hiring its lead researcher. The team publishes regularly on adversarial AI risk in critical infrastructure.
 - **Shipped a 0-to-1 enterprise procurement platform for the U.S. Department of Energy**, replacing a decades-old email-and-attachment process with a secure workflow from RFP intake through structured evaluation to award. About $5B a year flows through it, it is still in production, and I led the replatforming onto a second stack.
 - **Led discovery research, interface design, and release validation for a commercially launched AI/ML platform** delivering search, technology monitoring, and spend analytics across 400M+ documents.
 - **Led the company's multi-year security compliance program** (CMMC, a security compliance framework comparable to SOC 2 and ISO 27001), from evaluation through implementation, and authored the full policy set.
@@ -71,7 +71,7 @@ Six contracts that did not share a roadmap, a prioritization method, or in most 
 
 ## Outcome
 
-Six contracts worth $45M ran under one set of delivery standards. The team grew from 4 to 12 while contract value doubled. The Army Cyber Institute work produced two published assessments on adversarial AI risk in critical infrastructure, and the procurement platform now processes about $5B a year.
+Six contracts worth $45M ran under one set of delivery standards. The team grew from 4 to 12 while contract value doubled. The Army Cyber Institute research team grew from 2 to 6 and publishes regularly on adversarial AI risk in critical infrastructure, and the procurement platform now processes about $5B a year.
 
 ## Skills Demonstrated
 
